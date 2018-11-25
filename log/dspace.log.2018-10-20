@@ -1,0 +1,527 @@
+2018-10-20 01:17:30,068 INFO  org.apache.commons.configuration.PropertiesConfiguration @ Reloading configuration. URL is file:/dspace/config/dspace.cfg
+2018-10-20 01:17:32,486 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=930B010F7A1FA0718A8E5F3594CB405E:ip_addr=127.0.0.1:browse_mini:
+2018-10-20 01:17:33,692 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2018-10-20 01:24:17,478 INFO  org.dspace.statistics.SolrLoggerServiceImpl @ solr-statistics.spidersfile:null
+2018-10-20 01:24:17,594 INFO  org.dspace.statistics.SolrLoggerServiceImpl @ solr-statistics.server:http://localhost:8080/solr/statistics
+2018-10-20 01:24:17,594 INFO  org.dspace.statistics.SolrLoggerServiceImpl @ usage-statistics.dbfile:/dspace/config/GeoLiteCity.dat
+2018-10-20 01:24:18,164 INFO  org.dspace.statistics.SolrLoggerServiceImpl @ useProxies=false
+2018-10-20 01:24:20,987 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2018-10-20 01:24:22,221 INFO  org.flywaydb.core.internal.util.VersionPrinter @ Flyway 4.0.3 by Boxfuse
+2018-10-20 01:24:22,241 INFO  org.flywaydb.core.internal.dbsupport.DbSupportFactory @ Database: jdbc:postgresql://localhost:5432/dspace (PostgreSQL 10.5)
+2018-10-20 01:24:23,020 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2018-10-20 01:24:23,049 INFO  org.dspace.event.EventServiceImpl @ EventService dispatcher pool initialized
+2018-10-20 01:24:23,459 INFO  org.hibernate.annotations.common.Version @ HCANN000001: Hibernate Commons Annotations {4.0.2.Final}
+2018-10-20 01:24:23,472 INFO  org.hibernate.Version @ HHH000412: Hibernate Core {4.2.21.Final}
+2018-10-20 01:24:23,477 INFO  org.hibernate.cfg.Environment @ HHH000206: hibernate.properties not found
+2018-10-20 01:24:23,479 INFO  org.hibernate.cfg.Environment @ HHH000021: Bytecode provider name : javassist
+2018-10-20 01:24:23,528 INFO  org.hibernate.cfg.Configuration @ HHH000044: Configuring from URL: file:/dspace/config/hibernate.cfg.xml
+2018-10-20 01:24:23,723 INFO  org.hibernate.cfg.Configuration @ HHH000041: Configured SessionFactory: null
+2018-10-20 01:24:24,124 INFO  org.hibernate.dialect.Dialect @ HHH000400: Using dialect: org.dspace.storage.rdbms.hibernate.postgres.DSpacePostgreSQL82Dialect
+2018-10-20 01:24:24,151 INFO  org.hibernate.engine.jdbc.internal.LobCreatorBuilder @ HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2018-10-20 01:24:24,166 INFO  org.hibernate.type.BasicTypeRegistry @ HHH000270: Type registration [pg-uuid] overrides previous : org.hibernate.type.PostgresUUIDType@4a133248
+2018-10-20 01:24:24,166 INFO  org.hibernate.type.BasicTypeRegistry @ HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@5983a3d5
+2018-10-20 01:24:24,712 WARN  org.hibernate.mapping.RootClass @ HHH000039: Composite-id class does not override hashCode(): org.dspace.eperson.Group2GroupCache
+2018-10-20 01:24:24,713 WARN  org.hibernate.mapping.RootClass @ HHH000038: Composite-id class does not override equals(): org.dspace.checker.MostRecentChecksum
+2018-10-20 01:24:24,713 WARN  org.hibernate.mapping.RootClass @ HHH000039: Composite-id class does not override hashCode(): org.dspace.checker.MostRecentChecksum
+2018-10-20 01:24:24,726 INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator @ HHH000399: Using default transaction strategy (direct JDBC transactions)
+2018-10-20 01:24:24,739 INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory @ HHH000397: Using ASTQueryTranslatorFactory
+2018-10-20 01:24:24,835 WARN  net.sf.ehcache.config.ConfigurationFactory @ No configuration found. Configuring ehcache from ehcache-failsafe.xml  found in the classpath: jar:file:/var/lib/tomcat8/webapps/rest/WEB-INF/lib/ehcache-core-2.4.3.jar!/ehcache-failsafe.xml
+2018-10-20 01:24:24,866 WARN  net.sf.ehcache.CacheManager @ Creating a new instance of CacheManager using the diskStorePath "/tmp/tomcat8-tomcat8-tmp" which is already used by an existing CacheManager.
+The source of the configuration was net.sf.ehcache.config.generator.ConfigurationSource$DefaultConfigurationSource@31b3100.
+The diskStore path for this CacheManager will be set to /tmp/tomcat8-tomcat8-tmp/ehcache_auto_created_1539973464866.
+To avoid this warning consider using the CacheManager factory methods to create a singleton CacheManager or specifying a separate ehcache configuration (ehcache.xml) for each CacheManager instance.
+2018-10-20 01:24:24,873 INFO  org.hibernate.cache.spi.UpdateTimestampsCache @ HHH000250: Starting update timestamps cache at region: org.hibernate.cache.spi.UpdateTimestampsCache
+2018-10-20 01:24:24,878 WARN  org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory @ HHH020003: Could not find a specific ehcache configuration for cache named [org.hibernate.cache.spi.UpdateTimestampsCache]; using defaults.
+2018-10-20 01:24:24,967 INFO  org.hibernate.cache.internal.StandardQueryCache @ HHH000248: Starting query cache at region: org.hibernate.cache.internal.StandardQueryCache
+2018-10-20 01:24:24,968 WARN  org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory @ HHH020003: Could not find a specific ehcache configuration for cache named [org.hibernate.cache.internal.StandardQueryCache]; using defaults.
+2018-10-20 01:24:25,028 INFO  org.hibernate.validator.internal.util.Version @ HV000001: Hibernate Validator 5.1.2.Final
+2018-10-20 01:24:25,845 WARN  org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory @ HHH020003: Could not find a specific ehcache configuration for cache named [org.dspace.content.MetadataSchema]; using defaults.
+2018-10-20 01:24:26,376 WARN  org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory @ HHH020003: Could not find a specific ehcache configuration for cache named [org.dspace.content.MetadataField]; using defaults.
+2018-10-20 01:24:26,760 INFO  org.hibernate.tool.hbm2ddl.SchemaValidator @ HHH000229: Running schema validator
+2018-10-20 01:24:26,760 INFO  org.hibernate.tool.hbm2ddl.SchemaValidator @ HHH000102: Fetching database metadata
+2018-10-20 01:24:26,807 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.doi
+2018-10-20 01:24:26,808 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [dspace_object, resource_type_id, resource_id, doi_id, doi, status]
+2018-10-20 01:24:26,900 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.bitstream
+2018-10-20 01:24:26,900 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [deleted, size_bytes, internal_id, checksum_algorithm, bitstream_id, checksum, store_number, sequence_id, bitstream_format_id, uuid]
+2018-10-20 01:24:26,906 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.bitstreamformatregistry
+2018-10-20 01:24:26,906 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [short_description, internal, description, bitstream_format_id, mimetype, support_level]
+2018-10-20 01:24:26,916 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.bundle
+2018-10-20 01:24:26,917 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [primary_bitstream_id, bundle_id, uuid]
+2018-10-20 01:24:26,925 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.bundle2bitstream
+2018-10-20 01:24:26,925 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [bitstream_order, bitstream_order_legacy, bundle_id, bitstream_id]
+2018-10-20 01:24:27,040 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.checksum_history
+2018-10-20 01:24:27,040 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [result, process_start_date, process_end_date, bitstream_id, check_id, checksum_calculated, checksum_expected]
+2018-10-20 01:24:27,046 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.checksum_results
+2018-10-20 01:24:27,046 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [result_description, result_code]
+2018-10-20 01:24:27,053 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.collection
+2018-10-20 01:24:27,053 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [collection_id, submitter, logo_bitstream_id, workflow_step_3, admin, workflow_step_1, workflow_step_2, template_item_id, uuid]
+2018-10-20 01:24:27,058 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.collection2item
+2018-10-20 01:24:27,058 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [collection_id, item_id]
+2018-10-20 01:24:27,170 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.community
+2018-10-20 01:24:27,170 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [logo_bitstream_id, community_id, admin, uuid]
+2018-10-20 01:24:27,177 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.community2collection
+2018-10-20 01:24:27,177 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [collection_id, community_id]
+2018-10-20 01:24:27,182 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.community2community
+2018-10-20 01:24:27,183 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [parent_comm_id, child_comm_id]
+2018-10-20 01:24:27,188 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.dspaceobject
+2018-10-20 01:24:27,188 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [uuid]
+2018-10-20 01:24:27,196 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.eperson
+2018-10-20 01:24:27,196 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [sub_frequency, password, can_log_in, digest_algorithm, salt, eperson_id, netid, last_active, self_registered, uuid, email, require_certificate]
+2018-10-20 01:24:27,202 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.epersongroup
+2018-10-20 01:24:27,203 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [permanent, name, eperson_group_id, uuid]
+2018-10-20 01:24:27,210 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.epersongroup2eperson
+2018-10-20 01:24:27,210 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [eperson_id, eperson_group_id]
+2018-10-20 01:24:27,224 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.epersongroup2workspaceitem
+2018-10-20 01:24:27,225 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [eperson_group_id, workspace_item_id]
+2018-10-20 01:24:27,233 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.fileextension
+2018-10-20 01:24:27,233 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [file_extension_id, extension, bitstream_format_id]
+2018-10-20 01:24:27,240 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.group2group
+2018-10-20 01:24:27,240 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [child_id, parent_id]
+2018-10-20 01:24:27,247 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.group2groupcache
+2018-10-20 01:24:27,247 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [child_id, parent_id]
+2018-10-20 01:24:27,253 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.handle
+2018-10-20 01:24:27,253 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [handle_id, resource_legacy_id, resource_type_id, resource_id, handle]
+2018-10-20 01:24:27,262 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.harvested_collection
+2018-10-20 01:24:27,263 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [collection_id, oai_source, metadata_config_id, last_harvested, oai_set_id, harvest_type, harvest_status, id, harvest_message, harvest_start_time]
+2018-10-20 01:24:27,275 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.harvested_item
+2018-10-20 01:24:27,276 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [oai_id, last_harvested, item_id, id]
+2018-10-20 01:24:27,283 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.item
+2018-10-20 01:24:27,283 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [item_id, discoverable, in_archive, withdrawn, submitter_id, last_modified, uuid, owning_collection]
+2018-10-20 01:24:27,290 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.item2bundle
+2018-10-20 01:24:27,290 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [item_id, bundle_id]
+2018-10-20 01:24:27,296 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.metadatafieldregistry
+2018-10-20 01:24:27,296 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [scope_note, metadata_schema_id, qualifier, metadata_field_id, element]
+2018-10-20 01:24:27,303 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.metadataschemaregistry
+2018-10-20 01:24:27,303 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [metadata_schema_id, namespace, short_id]
+2018-10-20 01:24:27,312 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.metadatavalue
+2018-10-20 01:24:27,312 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [text_value, dspace_object_id, text_lang, authority, confidence, metadata_value_id, place, metadata_field_id]
+2018-10-20 01:24:27,318 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.most_recent_checksum
+2018-10-20 01:24:27,324 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [last_process_end_date, result, expected_checksum, matched_prev_checksum, to_be_processed, current_checksum, checksum_algorithm, bitstream_id, last_process_start_date]
+2018-10-20 01:24:27,336 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.registrationdata
+2018-10-20 01:24:27,336 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [registrationdata_id, expires, email, token]
+2018-10-20 01:24:27,344 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.requestitem
+2018-10-20 01:24:27,345 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [request_name, decision_date, expires, item_id, request_message, request_email, request_date, bitstream_id, allfiles, accept_request, requestitem_id, token]
+2018-10-20 01:24:27,360 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.resourcepolicy
+2018-10-20 01:24:27,361 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [end_date, dspace_object, rptype, resource_type_id, policy_id, eperson_id, action_id, epersongroup_id, rpdescription, resource_id, start_date, rpname]
+2018-10-20 01:24:27,367 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.site
+2018-10-20 01:24:27,367 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [uuid]
+2018-10-20 01:24:27,373 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.subscription
+2018-10-20 01:24:27,373 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [subscription_id, collection_id, eperson_id]
+2018-10-20 01:24:27,378 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.tasklistitem
+2018-10-20 01:24:27,379 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [workflow_id, eperson_id, tasklist_id]
+2018-10-20 01:24:27,385 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.versionhistory
+2018-10-20 01:24:27,385 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [versionhistory_id]
+2018-10-20 01:24:27,391 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.versionitem
+2018-10-20 01:24:27,391 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [version_summary, eperson_id, item_id, version_date, version_number, versionitem_id, versionhistory_id]
+2018-10-20 01:24:27,396 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.webapp
+2018-10-20 01:24:27,397 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [webapp_id, appname, started, url, isui]
+2018-10-20 01:24:27,402 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.workflowitem
+2018-10-20 01:24:27,402 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [collection_id, owner, workflow_id, published_before, item_id, multiple_titles, multiple_files, state]
+2018-10-20 01:24:27,409 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.workspaceitem
+2018-10-20 01:24:27,409 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [collection_id, stage_reached, page_reached, published_before, item_id, multiple_titles, multiple_files, workspace_item_id]
+2018-10-20 01:25:15,856 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2018-10-20 01:25:15,913 INFO  org.flywaydb.core.internal.util.VersionPrinter @ Flyway 4.0.3 by Boxfuse
+2018-10-20 01:25:15,940 INFO  org.flywaydb.core.internal.dbsupport.DbSupportFactory @ Database: jdbc:postgresql://localhost:5432/dspace (PostgreSQL 10.5)
+2018-10-20 01:25:16,111 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2018-10-20 01:25:16,135 INFO  org.dspace.event.EventServiceImpl @ EventService dispatcher pool initialized
+2018-10-20 01:25:16,458 INFO  org.hibernate.annotations.common.Version @ HCANN000001: Hibernate Commons Annotations {4.0.2.Final}
+2018-10-20 01:25:16,472 INFO  org.hibernate.Version @ HHH000412: Hibernate Core {4.2.21.Final}
+2018-10-20 01:25:16,491 INFO  org.hibernate.cfg.Environment @ HHH000206: hibernate.properties not found
+2018-10-20 01:25:16,495 INFO  org.hibernate.cfg.Environment @ HHH000021: Bytecode provider name : javassist
+2018-10-20 01:25:16,542 INFO  org.hibernate.cfg.Configuration @ HHH000044: Configuring from URL: file:/dspace/config/hibernate.cfg.xml
+2018-10-20 01:25:16,833 INFO  org.hibernate.cfg.Configuration @ HHH000041: Configured SessionFactory: null
+2018-10-20 01:25:17,132 INFO  org.hibernate.dialect.Dialect @ HHH000400: Using dialect: org.dspace.storage.rdbms.hibernate.postgres.DSpacePostgreSQL82Dialect
+2018-10-20 01:25:17,152 INFO  org.hibernate.engine.jdbc.internal.LobCreatorBuilder @ HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2018-10-20 01:25:17,163 INFO  org.hibernate.type.BasicTypeRegistry @ HHH000270: Type registration [pg-uuid] overrides previous : org.hibernate.type.PostgresUUIDType@1d063ad0
+2018-10-20 01:25:17,163 INFO  org.hibernate.type.BasicTypeRegistry @ HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@1618dcd9
+2018-10-20 01:25:17,627 WARN  org.hibernate.mapping.RootClass @ HHH000039: Composite-id class does not override hashCode(): org.dspace.eperson.Group2GroupCache
+2018-10-20 01:25:17,628 WARN  org.hibernate.mapping.RootClass @ HHH000038: Composite-id class does not override equals(): org.dspace.checker.MostRecentChecksum
+2018-10-20 01:25:17,628 WARN  org.hibernate.mapping.RootClass @ HHH000039: Composite-id class does not override hashCode(): org.dspace.checker.MostRecentChecksum
+2018-10-20 01:25:17,638 INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator @ HHH000399: Using default transaction strategy (direct JDBC transactions)
+2018-10-20 01:25:17,648 INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory @ HHH000397: Using ASTQueryTranslatorFactory
+2018-10-20 01:25:17,710 WARN  net.sf.ehcache.config.ConfigurationFactory @ No configuration found. Configuring ehcache from ehcache-failsafe.xml  found in the classpath: jar:file:/var/lib/tomcat8/webapps/jspui/WEB-INF/lib/ehcache-core-2.4.3.jar!/ehcache-failsafe.xml
+2018-10-20 01:25:17,739 WARN  net.sf.ehcache.CacheManager @ Creating a new instance of CacheManager using the diskStorePath "/tmp/tomcat8-tomcat8-tmp" which is already used by an existing CacheManager.
+The source of the configuration was net.sf.ehcache.config.generator.ConfigurationSource$DefaultConfigurationSource@6999c885.
+The diskStore path for this CacheManager will be set to /tmp/tomcat8-tomcat8-tmp/ehcache_auto_created_1539973517739.
+To avoid this warning consider using the CacheManager factory methods to create a singleton CacheManager or specifying a separate ehcache configuration (ehcache.xml) for each CacheManager instance.
+2018-10-20 01:25:17,743 INFO  org.hibernate.cache.spi.UpdateTimestampsCache @ HHH000250: Starting update timestamps cache at region: org.hibernate.cache.spi.UpdateTimestampsCache
+2018-10-20 01:25:17,748 WARN  org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory @ HHH020003: Could not find a specific ehcache configuration for cache named [org.hibernate.cache.spi.UpdateTimestampsCache]; using defaults.
+2018-10-20 01:25:17,793 INFO  org.hibernate.cache.internal.StandardQueryCache @ HHH000248: Starting query cache at region: org.hibernate.cache.internal.StandardQueryCache
+2018-10-20 01:25:17,795 WARN  org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory @ HHH020003: Could not find a specific ehcache configuration for cache named [org.hibernate.cache.internal.StandardQueryCache]; using defaults.
+2018-10-20 01:25:17,831 WARN  org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory @ HHH020003: Could not find a specific ehcache configuration for cache named [org.dspace.content.MetadataSchema]; using defaults.
+2018-10-20 01:25:18,114 WARN  org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory @ HHH020003: Could not find a specific ehcache configuration for cache named [org.dspace.content.MetadataField]; using defaults.
+2018-10-20 01:25:18,380 INFO  org.hibernate.tool.hbm2ddl.SchemaValidator @ HHH000229: Running schema validator
+2018-10-20 01:25:18,380 INFO  org.hibernate.tool.hbm2ddl.SchemaValidator @ HHH000102: Fetching database metadata
+2018-10-20 01:25:18,402 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.doi
+2018-10-20 01:25:18,402 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [dspace_object, resource_type_id, resource_id, doi_id, doi, status]
+2018-10-20 01:25:18,463 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.bitstream
+2018-10-20 01:25:18,463 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [deleted, size_bytes, internal_id, checksum_algorithm, bitstream_id, checksum, store_number, sequence_id, bitstream_format_id, uuid]
+2018-10-20 01:25:18,472 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.bitstreamformatregistry
+2018-10-20 01:25:18,473 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [short_description, internal, description, bitstream_format_id, mimetype, support_level]
+2018-10-20 01:25:18,481 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.bundle
+2018-10-20 01:25:18,481 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [primary_bitstream_id, bundle_id, uuid]
+2018-10-20 01:25:18,488 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.bundle2bitstream
+2018-10-20 01:25:18,488 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [bitstream_order, bitstream_order_legacy, bundle_id, bitstream_id]
+2018-10-20 01:25:18,494 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.checksum_history
+2018-10-20 01:25:18,494 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [result, process_start_date, process_end_date, bitstream_id, check_id, checksum_calculated, checksum_expected]
+2018-10-20 01:25:18,499 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.checksum_results
+2018-10-20 01:25:18,500 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [result_description, result_code]
+2018-10-20 01:25:18,504 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.collection
+2018-10-20 01:25:18,504 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [collection_id, submitter, logo_bitstream_id, workflow_step_3, admin, workflow_step_1, workflow_step_2, template_item_id, uuid]
+2018-10-20 01:25:18,512 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.collection2item
+2018-10-20 01:25:18,512 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [collection_id, item_id]
+2018-10-20 01:25:18,520 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.community
+2018-10-20 01:25:18,520 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [logo_bitstream_id, community_id, admin, uuid]
+2018-10-20 01:25:18,526 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.community2collection
+2018-10-20 01:25:18,526 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [collection_id, community_id]
+2018-10-20 01:25:18,531 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.community2community
+2018-10-20 01:25:18,531 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [parent_comm_id, child_comm_id]
+2018-10-20 01:25:18,535 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.dspaceobject
+2018-10-20 01:25:18,536 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [uuid]
+2018-10-20 01:25:18,541 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.eperson
+2018-10-20 01:25:18,542 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [sub_frequency, password, can_log_in, digest_algorithm, salt, eperson_id, netid, last_active, self_registered, uuid, email, require_certificate]
+2018-10-20 01:25:18,547 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.epersongroup
+2018-10-20 01:25:18,547 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [permanent, name, eperson_group_id, uuid]
+2018-10-20 01:25:18,551 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.epersongroup2eperson
+2018-10-20 01:25:18,551 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [eperson_id, eperson_group_id]
+2018-10-20 01:25:18,556 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.epersongroup2workspaceitem
+2018-10-20 01:25:18,556 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [eperson_group_id, workspace_item_id]
+2018-10-20 01:25:18,563 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.fileextension
+2018-10-20 01:25:18,563 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [file_extension_id, extension, bitstream_format_id]
+2018-10-20 01:25:18,568 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.group2group
+2018-10-20 01:25:18,569 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [child_id, parent_id]
+2018-10-20 01:25:18,573 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.group2groupcache
+2018-10-20 01:25:18,573 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [child_id, parent_id]
+2018-10-20 01:25:18,585 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.handle
+2018-10-20 01:25:18,586 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [handle_id, resource_legacy_id, resource_type_id, resource_id, handle]
+2018-10-20 01:25:18,596 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.harvested_collection
+2018-10-20 01:25:18,596 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [collection_id, oai_source, metadata_config_id, last_harvested, oai_set_id, harvest_type, harvest_status, id, harvest_message, harvest_start_time]
+2018-10-20 01:25:18,604 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.harvested_item
+2018-10-20 01:25:18,604 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [oai_id, last_harvested, item_id, id]
+2018-10-20 01:25:18,613 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.item
+2018-10-20 01:25:18,614 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [item_id, discoverable, in_archive, withdrawn, submitter_id, last_modified, uuid, owning_collection]
+2018-10-20 01:25:18,620 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.item2bundle
+2018-10-20 01:25:18,620 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [item_id, bundle_id]
+2018-10-20 01:25:18,627 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.metadatafieldregistry
+2018-10-20 01:25:18,627 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [scope_note, metadata_schema_id, qualifier, metadata_field_id, element]
+2018-10-20 01:25:18,633 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.metadataschemaregistry
+2018-10-20 01:25:18,633 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [metadata_schema_id, namespace, short_id]
+2018-10-20 01:25:18,639 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.metadatavalue
+2018-10-20 01:25:18,639 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [text_value, dspace_object_id, text_lang, authority, confidence, metadata_value_id, place, metadata_field_id]
+2018-10-20 01:25:18,647 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.most_recent_checksum
+2018-10-20 01:25:18,647 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [last_process_end_date, result, expected_checksum, matched_prev_checksum, to_be_processed, current_checksum, checksum_algorithm, bitstream_id, last_process_start_date]
+2018-10-20 01:25:18,655 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.registrationdata
+2018-10-20 01:25:18,655 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [registrationdata_id, expires, email, token]
+2018-10-20 01:25:18,659 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.requestitem
+2018-10-20 01:25:18,660 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [request_name, decision_date, expires, item_id, request_message, request_email, request_date, bitstream_id, allfiles, accept_request, requestitem_id, token]
+2018-10-20 01:25:18,665 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.resourcepolicy
+2018-10-20 01:25:18,665 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [end_date, dspace_object, rptype, resource_type_id, policy_id, eperson_id, action_id, epersongroup_id, rpdescription, resource_id, start_date, rpname]
+2018-10-20 01:25:18,669 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.site
+2018-10-20 01:25:18,669 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [uuid]
+2018-10-20 01:25:18,673 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.subscription
+2018-10-20 01:25:18,673 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [subscription_id, collection_id, eperson_id]
+2018-10-20 01:25:18,678 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.tasklistitem
+2018-10-20 01:25:18,678 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [workflow_id, eperson_id, tasklist_id]
+2018-10-20 01:25:18,682 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.versionhistory
+2018-10-20 01:25:18,682 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [versionhistory_id]
+2018-10-20 01:25:18,687 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.versionitem
+2018-10-20 01:25:18,688 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [version_summary, eperson_id, item_id, version_date, version_number, versionitem_id, versionhistory_id]
+2018-10-20 01:25:18,693 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.webapp
+2018-10-20 01:25:18,694 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [webapp_id, appname, started, url, isui]
+2018-10-20 01:25:18,698 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.workflowitem
+2018-10-20 01:25:18,698 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [collection_id, owner, workflow_id, published_before, item_id, multiple_titles, multiple_files, state]
+2018-10-20 01:25:18,704 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.workspaceitem
+2018-10-20 01:25:18,704 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [collection_id, stage_reached, page_reached, published_before, item_id, multiple_titles, multiple_files, workspace_item_id]
+2018-10-20 01:25:19,263 INFO  org.dspace.statistics.SolrLoggerServiceImpl @ solr-statistics.spidersfile:null
+2018-10-20 01:25:19,264 INFO  org.dspace.statistics.SolrLoggerServiceImpl @ solr-statistics.server:http://localhost:8080/solr/statistics
+2018-10-20 01:25:19,265 INFO  org.dspace.statistics.SolrLoggerServiceImpl @ usage-statistics.dbfile:/dspace/config/GeoLiteCity.dat
+2018-10-20 01:25:19,418 INFO  org.dspace.statistics.SolrLoggerServiceImpl @ useProxies=false
+2018-10-20 01:25:40,350 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2018-10-20 01:25:40,412 INFO  org.flywaydb.core.internal.util.VersionPrinter @ Flyway 4.0.3 by Boxfuse
+2018-10-20 01:25:40,494 INFO  org.flywaydb.core.internal.dbsupport.DbSupportFactory @ Database: jdbc:postgresql://localhost:5432/dspace (PostgreSQL 10.5)
+2018-10-20 01:25:40,665 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2018-10-20 01:25:40,696 INFO  org.dspace.event.EventServiceImpl @ EventService dispatcher pool initialized
+2018-10-20 01:25:40,987 INFO  org.hibernate.annotations.common.Version @ HCANN000001: Hibernate Commons Annotations {4.0.2.Final}
+2018-10-20 01:25:40,997 INFO  org.hibernate.Version @ HHH000412: Hibernate Core {4.2.21.Final}
+2018-10-20 01:25:41,003 INFO  org.hibernate.cfg.Environment @ HHH000206: hibernate.properties not found
+2018-10-20 01:25:41,007 INFO  org.hibernate.cfg.Environment @ HHH000021: Bytecode provider name : javassist
+2018-10-20 01:25:41,051 INFO  org.hibernate.cfg.Configuration @ HHH000044: Configuring from URL: file:/dspace/config/hibernate.cfg.xml
+2018-10-20 01:25:41,272 INFO  org.hibernate.cfg.Configuration @ HHH000041: Configured SessionFactory: null
+2018-10-20 01:25:41,606 INFO  org.hibernate.dialect.Dialect @ HHH000400: Using dialect: org.dspace.storage.rdbms.hibernate.postgres.DSpacePostgreSQL82Dialect
+2018-10-20 01:25:41,632 INFO  org.hibernate.engine.jdbc.internal.LobCreatorBuilder @ HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2018-10-20 01:25:41,645 INFO  org.hibernate.type.BasicTypeRegistry @ HHH000270: Type registration [pg-uuid] overrides previous : org.hibernate.type.PostgresUUIDType@14f7c6b0
+2018-10-20 01:25:41,646 INFO  org.hibernate.type.BasicTypeRegistry @ HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@7961afae
+2018-10-20 01:25:42,045 WARN  org.hibernate.mapping.RootClass @ HHH000039: Composite-id class does not override hashCode(): org.dspace.eperson.Group2GroupCache
+2018-10-20 01:25:42,046 WARN  org.hibernate.mapping.RootClass @ HHH000038: Composite-id class does not override equals(): org.dspace.checker.MostRecentChecksum
+2018-10-20 01:25:42,046 WARN  org.hibernate.mapping.RootClass @ HHH000039: Composite-id class does not override hashCode(): org.dspace.checker.MostRecentChecksum
+2018-10-20 01:25:42,062 INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator @ HHH000399: Using default transaction strategy (direct JDBC transactions)
+2018-10-20 01:25:42,098 INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory @ HHH000397: Using ASTQueryTranslatorFactory
+2018-10-20 01:25:42,160 WARN  net.sf.ehcache.config.ConfigurationFactory @ No configuration found. Configuring ehcache from ehcache-failsafe.xml  found in the classpath: jar:file:/var/lib/tomcat8/webapps/xmlui/WEB-INF/lib/ehcache-core-2.4.3.jar!/ehcache-failsafe.xml
+2018-10-20 01:25:42,177 WARN  net.sf.ehcache.CacheManager @ Creating a new instance of CacheManager using the diskStorePath "/tmp/tomcat8-tomcat8-tmp" which is already used by an existing CacheManager.
+The source of the configuration was net.sf.ehcache.config.generator.ConfigurationSource$DefaultConfigurationSource@726dfea7.
+The diskStore path for this CacheManager will be set to /tmp/tomcat8-tomcat8-tmp/ehcache_auto_created_1539973542177.
+To avoid this warning consider using the CacheManager factory methods to create a singleton CacheManager or specifying a separate ehcache configuration (ehcache.xml) for each CacheManager instance.
+2018-10-20 01:25:42,184 INFO  org.hibernate.cache.spi.UpdateTimestampsCache @ HHH000250: Starting update timestamps cache at region: org.hibernate.cache.spi.UpdateTimestampsCache
+2018-10-20 01:25:42,188 WARN  org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory @ HHH020003: Could not find a specific ehcache configuration for cache named [org.hibernate.cache.spi.UpdateTimestampsCache]; using defaults.
+2018-10-20 01:25:42,237 INFO  org.hibernate.cache.internal.StandardQueryCache @ HHH000248: Starting query cache at region: org.hibernate.cache.internal.StandardQueryCache
+2018-10-20 01:25:42,238 WARN  org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory @ HHH020003: Could not find a specific ehcache configuration for cache named [org.hibernate.cache.internal.StandardQueryCache]; using defaults.
+2018-10-20 01:25:42,277 WARN  org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory @ HHH020003: Could not find a specific ehcache configuration for cache named [org.dspace.content.MetadataSchema]; using defaults.
+2018-10-20 01:25:42,571 WARN  org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory @ HHH020003: Could not find a specific ehcache configuration for cache named [org.dspace.content.MetadataField]; using defaults.
+2018-10-20 01:25:43,222 INFO  org.hibernate.tool.hbm2ddl.SchemaValidator @ HHH000229: Running schema validator
+2018-10-20 01:25:43,222 INFO  org.hibernate.tool.hbm2ddl.SchemaValidator @ HHH000102: Fetching database metadata
+2018-10-20 01:25:43,247 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.doi
+2018-10-20 01:25:43,247 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [dspace_object, resource_type_id, resource_id, doi_id, doi, status]
+2018-10-20 01:25:43,254 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.bitstream
+2018-10-20 01:25:43,254 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [deleted, size_bytes, internal_id, checksum_algorithm, bitstream_id, checksum, store_number, sequence_id, bitstream_format_id, uuid]
+2018-10-20 01:25:43,263 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.bitstreamformatregistry
+2018-10-20 01:25:43,263 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [short_description, internal, description, bitstream_format_id, mimetype, support_level]
+2018-10-20 01:25:43,274 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.bundle
+2018-10-20 01:25:43,274 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [primary_bitstream_id, bundle_id, uuid]
+2018-10-20 01:25:43,284 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.bundle2bitstream
+2018-10-20 01:25:43,284 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [bitstream_order, bitstream_order_legacy, bundle_id, bitstream_id]
+2018-10-20 01:25:43,288 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.checksum_history
+2018-10-20 01:25:43,289 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [result, process_start_date, process_end_date, bitstream_id, check_id, checksum_calculated, checksum_expected]
+2018-10-20 01:25:43,298 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.checksum_results
+2018-10-20 01:25:43,298 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [result_description, result_code]
+2018-10-20 01:25:43,309 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.collection
+2018-10-20 01:25:43,315 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [collection_id, submitter, logo_bitstream_id, workflow_step_3, admin, workflow_step_1, workflow_step_2, template_item_id, uuid]
+2018-10-20 01:25:43,323 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.collection2item
+2018-10-20 01:25:43,323 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [collection_id, item_id]
+2018-10-20 01:25:43,337 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.community
+2018-10-20 01:25:43,337 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [logo_bitstream_id, community_id, admin, uuid]
+2018-10-20 01:25:43,346 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.community2collection
+2018-10-20 01:25:43,346 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [collection_id, community_id]
+2018-10-20 01:25:43,352 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.community2community
+2018-10-20 01:25:43,352 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [parent_comm_id, child_comm_id]
+2018-10-20 01:25:43,359 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.dspaceobject
+2018-10-20 01:25:43,359 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [uuid]
+2018-10-20 01:25:43,365 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.eperson
+2018-10-20 01:25:43,365 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [sub_frequency, password, can_log_in, digest_algorithm, salt, eperson_id, netid, last_active, self_registered, uuid, email, require_certificate]
+2018-10-20 01:25:43,370 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.epersongroup
+2018-10-20 01:25:43,370 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [permanent, name, eperson_group_id, uuid]
+2018-10-20 01:25:43,375 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.epersongroup2eperson
+2018-10-20 01:25:43,375 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [eperson_id, eperson_group_id]
+2018-10-20 01:25:43,381 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.epersongroup2workspaceitem
+2018-10-20 01:25:43,382 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [eperson_group_id, workspace_item_id]
+2018-10-20 01:25:43,386 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.fileextension
+2018-10-20 01:25:43,386 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [file_extension_id, extension, bitstream_format_id]
+2018-10-20 01:25:43,391 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.group2group
+2018-10-20 01:25:43,391 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [child_id, parent_id]
+2018-10-20 01:25:43,397 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.group2groupcache
+2018-10-20 01:25:43,397 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [child_id, parent_id]
+2018-10-20 01:25:43,402 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.handle
+2018-10-20 01:25:43,403 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [handle_id, resource_legacy_id, resource_type_id, resource_id, handle]
+2018-10-20 01:25:43,412 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.harvested_collection
+2018-10-20 01:25:43,412 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [collection_id, oai_source, metadata_config_id, last_harvested, oai_set_id, harvest_type, harvest_status, id, harvest_message, harvest_start_time]
+2018-10-20 01:25:43,419 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.harvested_item
+2018-10-20 01:25:43,419 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [oai_id, last_harvested, item_id, id]
+2018-10-20 01:25:43,425 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.item
+2018-10-20 01:25:43,426 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [item_id, discoverable, in_archive, withdrawn, submitter_id, last_modified, uuid, owning_collection]
+2018-10-20 01:25:43,435 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.item2bundle
+2018-10-20 01:25:43,435 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [item_id, bundle_id]
+2018-10-20 01:25:43,441 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.metadatafieldregistry
+2018-10-20 01:25:43,441 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [scope_note, metadata_schema_id, qualifier, metadata_field_id, element]
+2018-10-20 01:25:43,455 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.metadataschemaregistry
+2018-10-20 01:25:43,456 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [metadata_schema_id, namespace, short_id]
+2018-10-20 01:25:43,465 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.metadatavalue
+2018-10-20 01:25:43,466 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [text_value, dspace_object_id, text_lang, authority, confidence, metadata_value_id, place, metadata_field_id]
+2018-10-20 01:25:43,473 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.most_recent_checksum
+2018-10-20 01:25:43,473 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [last_process_end_date, result, expected_checksum, matched_prev_checksum, to_be_processed, current_checksum, checksum_algorithm, bitstream_id, last_process_start_date]
+2018-10-20 01:25:43,477 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.registrationdata
+2018-10-20 01:25:43,477 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [registrationdata_id, expires, email, token]
+2018-10-20 01:25:43,485 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.requestitem
+2018-10-20 01:25:43,485 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [request_name, decision_date, expires, item_id, request_message, request_email, request_date, bitstream_id, allfiles, accept_request, requestitem_id, token]
+2018-10-20 01:25:43,490 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.resourcepolicy
+2018-10-20 01:25:43,490 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [end_date, dspace_object, rptype, resource_type_id, policy_id, eperson_id, action_id, epersongroup_id, rpdescription, resource_id, start_date, rpname]
+2018-10-20 01:25:43,511 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.site
+2018-10-20 01:25:43,511 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [uuid]
+2018-10-20 01:25:43,516 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.subscription
+2018-10-20 01:25:43,517 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [subscription_id, collection_id, eperson_id]
+2018-10-20 01:25:43,521 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.tasklistitem
+2018-10-20 01:25:43,521 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [workflow_id, eperson_id, tasklist_id]
+2018-10-20 01:25:43,528 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.versionhistory
+2018-10-20 01:25:43,529 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [versionhistory_id]
+2018-10-20 01:25:43,540 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.versionitem
+2018-10-20 01:25:43,540 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [version_summary, eperson_id, item_id, version_date, version_number, versionitem_id, versionhistory_id]
+2018-10-20 01:25:43,548 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.webapp
+2018-10-20 01:25:43,548 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [webapp_id, appname, started, url, isui]
+2018-10-20 01:25:43,554 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.workflowitem
+2018-10-20 01:25:43,555 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [collection_id, owner, workflow_id, published_before, item_id, multiple_titles, multiple_files, state]
+2018-10-20 01:25:43,560 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.workspaceitem
+2018-10-20 01:25:43,561 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [collection_id, stage_reached, page_reached, published_before, item_id, multiple_titles, multiple_files, workspace_item_id]
+2018-10-20 01:25:52,583 INFO  org.dspace.statistics.SolrLoggerServiceImpl @ solr-statistics.spidersfile:null
+2018-10-20 01:25:52,809 INFO  org.dspace.statistics.SolrLoggerServiceImpl @ solr-statistics.server:http://localhost:8080/solr/statistics
+2018-10-20 01:25:52,809 INFO  org.dspace.statistics.SolrLoggerServiceImpl @ usage-statistics.dbfile:/dspace/config/GeoLiteCity.dat
+2018-10-20 01:25:52,978 INFO  org.dspace.statistics.SolrLoggerServiceImpl @ useProxies=false
+2018-10-20 01:25:53,323 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Loading XMLUI configuration from: /dspace/config/xmlui.xconf
+2018-10-20 01:25:53,797 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Displaying Artifacts', path='resource://aspects/ViewArtifacts/'.
+2018-10-20 01:25:53,797 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Browsing Artifacts', path='resource://aspects/BrowseArtifacts/'.
+2018-10-20 01:25:53,797 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Discovery', path='resource://aspects/Discovery/'.
+2018-10-20 01:25:53,797 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Administration', path='resource://aspects/Administrative/'.
+2018-10-20 01:25:53,800 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='E-Person', path='resource://aspects/EPerson/'.
+2018-10-20 01:25:54,027 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Submission and Workflow', path='resource://aspects/Submission/'.
+2018-10-20 01:25:54,027 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Statistics', path='resource://aspects/Statistics/'.
+2018-10-20 01:25:54,027 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Aspect Installed: name='Original Workflow', path='resource://aspects/Workflow/'.
+2018-10-20 01:25:54,028 INFO  org.dspace.app.xmlui.configuration.XMLUIConfiguration @ Theme Installed: name='Atmire Mirage Theme', path='Mirage/', id='null', regex='.*', handle='null'.
+2018-10-20 01:26:46,352 INFO  org.dspace.storage.rdbms.DatabaseUtils @ Loading Flyway DB migrations from: filesystem:/dspace/etc/postgres, classpath:org.dspace.storage.rdbms.sqlmigration.postgres, classpath:org.dspace.storage.rdbms.migration
+2018-10-20 01:26:46,652 INFO  org.flywaydb.core.internal.util.VersionPrinter @ Flyway 4.0.3 by Boxfuse
+2018-10-20 01:26:46,671 INFO  org.flywaydb.core.internal.dbsupport.DbSupportFactory @ Database: jdbc:postgresql://localhost:5432/dspace (PostgreSQL 10.5)
+2018-10-20 01:26:46,862 INFO  org.dspace.storage.rdbms.DatabaseUtils @ DSpace database schema is up to date
+2018-10-20 01:26:46,885 INFO  org.dspace.event.EventServiceImpl @ EventService dispatcher pool initialized
+2018-10-20 01:26:47,298 INFO  org.hibernate.annotations.common.Version @ HCANN000001: Hibernate Commons Annotations {4.0.2.Final}
+2018-10-20 01:26:47,309 INFO  org.hibernate.Version @ HHH000412: Hibernate Core {4.2.21.Final}
+2018-10-20 01:26:47,315 INFO  org.hibernate.cfg.Environment @ HHH000206: hibernate.properties not found
+2018-10-20 01:26:47,319 INFO  org.hibernate.cfg.Environment @ HHH000021: Bytecode provider name : javassist
+2018-10-20 01:26:47,411 INFO  org.hibernate.cfg.Configuration @ HHH000044: Configuring from URL: file:/dspace/config/hibernate.cfg.xml
+2018-10-20 01:26:48,110 INFO  org.hibernate.cfg.Configuration @ HHH000041: Configured SessionFactory: null
+2018-10-20 01:26:48,666 INFO  org.hibernate.dialect.Dialect @ HHH000400: Using dialect: org.dspace.storage.rdbms.hibernate.postgres.DSpacePostgreSQL82Dialect
+2018-10-20 01:26:48,709 INFO  org.hibernate.engine.jdbc.internal.LobCreatorBuilder @ HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2018-10-20 01:26:48,722 INFO  org.hibernate.type.BasicTypeRegistry @ HHH000270: Type registration [pg-uuid] overrides previous : org.hibernate.type.PostgresUUIDType@5e538709
+2018-10-20 01:26:48,723 INFO  org.hibernate.type.BasicTypeRegistry @ HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@27d08a98
+2018-10-20 01:26:49,223 WARN  org.hibernate.mapping.RootClass @ HHH000039: Composite-id class does not override hashCode(): org.dspace.eperson.Group2GroupCache
+2018-10-20 01:26:49,224 WARN  org.hibernate.mapping.RootClass @ HHH000038: Composite-id class does not override equals(): org.dspace.checker.MostRecentChecksum
+2018-10-20 01:26:49,224 WARN  org.hibernate.mapping.RootClass @ HHH000039: Composite-id class does not override hashCode(): org.dspace.checker.MostRecentChecksum
+2018-10-20 01:26:49,256 INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator @ HHH000399: Using default transaction strategy (direct JDBC transactions)
+2018-10-20 01:26:49,263 INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory @ HHH000397: Using ASTQueryTranslatorFactory
+2018-10-20 01:26:49,319 WARN  net.sf.ehcache.config.ConfigurationFactory @ No configuration found. Configuring ehcache from ehcache-failsafe.xml  found in the classpath: jar:file:/var/lib/tomcat8/webapps/oai/WEB-INF/lib/ehcache-core-2.4.3.jar!/ehcache-failsafe.xml
+2018-10-20 01:26:49,337 WARN  net.sf.ehcache.CacheManager @ Creating a new instance of CacheManager using the diskStorePath "/tmp/tomcat8-tomcat8-tmp" which is already used by an existing CacheManager.
+The source of the configuration was net.sf.ehcache.config.generator.ConfigurationSource$DefaultConfigurationSource@2da6c404.
+The diskStore path for this CacheManager will be set to /tmp/tomcat8-tomcat8-tmp/ehcache_auto_created_1539973609337.
+To avoid this warning consider using the CacheManager factory methods to create a singleton CacheManager or specifying a separate ehcache configuration (ehcache.xml) for each CacheManager instance.
+2018-10-20 01:26:49,340 INFO  org.hibernate.cache.spi.UpdateTimestampsCache @ HHH000250: Starting update timestamps cache at region: org.hibernate.cache.spi.UpdateTimestampsCache
+2018-10-20 01:26:49,344 WARN  org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory @ HHH020003: Could not find a specific ehcache configuration for cache named [org.hibernate.cache.spi.UpdateTimestampsCache]; using defaults.
+2018-10-20 01:26:49,449 INFO  org.hibernate.cache.internal.StandardQueryCache @ HHH000248: Starting query cache at region: org.hibernate.cache.internal.StandardQueryCache
+2018-10-20 01:26:49,449 WARN  org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory @ HHH020003: Could not find a specific ehcache configuration for cache named [org.hibernate.cache.internal.StandardQueryCache]; using defaults.
+2018-10-20 01:26:49,486 WARN  org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory @ HHH020003: Could not find a specific ehcache configuration for cache named [org.dspace.content.MetadataSchema]; using defaults.
+2018-10-20 01:26:49,953 WARN  org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory @ HHH020003: Could not find a specific ehcache configuration for cache named [org.dspace.content.MetadataField]; using defaults.
+2018-10-20 01:26:50,278 INFO  org.hibernate.tool.hbm2ddl.SchemaValidator @ HHH000229: Running schema validator
+2018-10-20 01:26:50,278 INFO  org.hibernate.tool.hbm2ddl.SchemaValidator @ HHH000102: Fetching database metadata
+2018-10-20 01:26:50,314 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.doi
+2018-10-20 01:26:50,314 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [dspace_object, resource_type_id, resource_id, doi_id, doi, status]
+2018-10-20 01:26:50,331 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.bitstream
+2018-10-20 01:26:50,332 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [deleted, size_bytes, internal_id, checksum_algorithm, bitstream_id, checksum, store_number, sequence_id, bitstream_format_id, uuid]
+2018-10-20 01:26:50,340 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.bitstreamformatregistry
+2018-10-20 01:26:50,340 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [short_description, internal, description, bitstream_format_id, mimetype, support_level]
+2018-10-20 01:26:50,347 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.bundle
+2018-10-20 01:26:50,348 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [primary_bitstream_id, bundle_id, uuid]
+2018-10-20 01:26:50,354 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.bundle2bitstream
+2018-10-20 01:26:50,354 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [bitstream_order, bitstream_order_legacy, bundle_id, bitstream_id]
+2018-10-20 01:26:50,361 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.checksum_history
+2018-10-20 01:26:50,362 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [result, process_start_date, process_end_date, bitstream_id, check_id, checksum_calculated, checksum_expected]
+2018-10-20 01:26:50,368 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.checksum_results
+2018-10-20 01:26:50,368 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [result_description, result_code]
+2018-10-20 01:26:50,375 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.collection
+2018-10-20 01:26:50,375 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [collection_id, submitter, logo_bitstream_id, workflow_step_3, admin, workflow_step_1, workflow_step_2, template_item_id, uuid]
+2018-10-20 01:26:50,381 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.collection2item
+2018-10-20 01:26:50,382 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [collection_id, item_id]
+2018-10-20 01:26:50,389 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.community
+2018-10-20 01:26:50,389 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [logo_bitstream_id, community_id, admin, uuid]
+2018-10-20 01:26:50,393 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.community2collection
+2018-10-20 01:26:50,393 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [collection_id, community_id]
+2018-10-20 01:26:50,398 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.community2community
+2018-10-20 01:26:50,398 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [parent_comm_id, child_comm_id]
+2018-10-20 01:26:50,407 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.dspaceobject
+2018-10-20 01:26:50,407 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [uuid]
+2018-10-20 01:26:50,413 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.eperson
+2018-10-20 01:26:50,413 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [sub_frequency, password, can_log_in, digest_algorithm, salt, eperson_id, netid, last_active, self_registered, uuid, email, require_certificate]
+2018-10-20 01:26:50,420 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.epersongroup
+2018-10-20 01:26:50,421 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [permanent, name, eperson_group_id, uuid]
+2018-10-20 01:26:50,426 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.epersongroup2eperson
+2018-10-20 01:26:50,426 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [eperson_id, eperson_group_id]
+2018-10-20 01:26:50,431 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.epersongroup2workspaceitem
+2018-10-20 01:26:50,431 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [eperson_group_id, workspace_item_id]
+2018-10-20 01:26:50,447 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.fileextension
+2018-10-20 01:26:50,448 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [file_extension_id, extension, bitstream_format_id]
+2018-10-20 01:26:50,456 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.group2group
+2018-10-20 01:26:50,456 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [child_id, parent_id]
+2018-10-20 01:26:50,461 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.group2groupcache
+2018-10-20 01:26:50,461 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [child_id, parent_id]
+2018-10-20 01:26:50,469 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.handle
+2018-10-20 01:26:50,469 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [handle_id, resource_legacy_id, resource_type_id, resource_id, handle]
+2018-10-20 01:26:50,477 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.harvested_collection
+2018-10-20 01:26:50,477 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [collection_id, oai_source, metadata_config_id, last_harvested, oai_set_id, harvest_type, harvest_status, id, harvest_message, harvest_start_time]
+2018-10-20 01:26:50,492 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.harvested_item
+2018-10-20 01:26:50,493 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [oai_id, last_harvested, item_id, id]
+2018-10-20 01:26:50,497 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.item
+2018-10-20 01:26:50,497 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [item_id, discoverable, in_archive, withdrawn, submitter_id, last_modified, uuid, owning_collection]
+2018-10-20 01:26:50,512 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.item2bundle
+2018-10-20 01:26:50,512 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [item_id, bundle_id]
+2018-10-20 01:26:50,519 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.metadatafieldregistry
+2018-10-20 01:26:50,519 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [scope_note, metadata_schema_id, qualifier, metadata_field_id, element]
+2018-10-20 01:26:50,524 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.metadataschemaregistry
+2018-10-20 01:26:50,524 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [metadata_schema_id, namespace, short_id]
+2018-10-20 01:26:50,529 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.metadatavalue
+2018-10-20 01:26:50,529 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [text_value, dspace_object_id, text_lang, authority, confidence, metadata_value_id, place, metadata_field_id]
+2018-10-20 01:26:50,540 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.most_recent_checksum
+2018-10-20 01:26:50,540 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [last_process_end_date, result, expected_checksum, matched_prev_checksum, to_be_processed, current_checksum, checksum_algorithm, bitstream_id, last_process_start_date]
+2018-10-20 01:26:50,546 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.registrationdata
+2018-10-20 01:26:50,546 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [registrationdata_id, expires, email, token]
+2018-10-20 01:26:50,551 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.requestitem
+2018-10-20 01:26:50,552 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [request_name, decision_date, expires, item_id, request_message, request_email, request_date, bitstream_id, allfiles, accept_request, requestitem_id, token]
+2018-10-20 01:26:50,561 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.resourcepolicy
+2018-10-20 01:26:50,561 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [end_date, dspace_object, rptype, resource_type_id, policy_id, eperson_id, action_id, epersongroup_id, rpdescription, resource_id, start_date, rpname]
+2018-10-20 01:26:50,566 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.site
+2018-10-20 01:26:50,566 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [uuid]
+2018-10-20 01:26:50,572 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.subscription
+2018-10-20 01:26:50,572 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [subscription_id, collection_id, eperson_id]
+2018-10-20 01:26:50,579 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.tasklistitem
+2018-10-20 01:26:50,579 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [workflow_id, eperson_id, tasklist_id]
+2018-10-20 01:26:50,583 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.versionhistory
+2018-10-20 01:26:50,584 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [versionhistory_id]
+2018-10-20 01:26:50,591 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.versionitem
+2018-10-20 01:26:50,591 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [version_summary, eperson_id, item_id, version_date, version_number, versionitem_id, versionhistory_id]
+2018-10-20 01:26:50,598 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.webapp
+2018-10-20 01:26:50,598 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [webapp_id, appname, started, url, isui]
+2018-10-20 01:26:50,603 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.workflowitem
+2018-10-20 01:26:50,604 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [collection_id, owner, workflow_id, published_before, item_id, multiple_titles, multiple_files, state]
+2018-10-20 01:26:50,608 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000261: Table found: public.workspaceitem
+2018-10-20 01:26:50,608 INFO  org.hibernate.tool.hbm2ddl.TableMetadata @ HHH000037: Columns: [collection_id, stage_reached, page_reached, published_before, item_id, multiple_titles, multiple_files, workspace_item_id]
+2018-10-20 01:26:51,094 INFO  org.dspace.statistics.SolrLoggerServiceImpl @ solr-statistics.spidersfile:null
+2018-10-20 01:26:51,094 INFO  org.dspace.statistics.SolrLoggerServiceImpl @ solr-statistics.server:http://localhost:8080/solr/statistics
+2018-10-20 01:26:51,095 INFO  org.dspace.statistics.SolrLoggerServiceImpl @ usage-statistics.dbfile:/dspace/config/GeoLiteCity.dat
+2018-10-20 01:26:51,270 INFO  org.dspace.statistics.SolrLoggerServiceImpl @ useProxies=false
+2018-10-20 01:27:48,868 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=945F11A692DD8FDADE4973365A86E813:ip_addr=127.0.0.1:browse_mini:
+2018-10-20 01:27:50,719 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2018-10-20 01:28:06,643 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=E1AF8280BDDF47B6D6034A6E74BAA6FB:ip_addr=192.168.207.1:browse_mini:
+2018-10-20 01:28:06,659 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2018-10-20 01:28:24,893 INFO  org.dspace.app.xmlui.aspect.artifactbrowser.CommunityBrowser @ anonymous:session_id=A25CDB6BD7D4991D8DE49D5ED5415573:ip_addr=192.168.207.1:view_community_list:
+2018-10-20 01:28:24,955 INFO  org.dspace.app.xmlui.aspect.discovery.SidebarFacetsTransformer @ facets for scope, null: 4
+2018-10-20 01:28:29,028 INFO  org.dspace.app.xmlui.aspect.discovery.SidebarFacetsTransformer @ facets for scope, null: 4
+2018-10-20 01:55:41,485 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=945F11A692DD8FDADE4973365A86E813:ip_addr=127.0.0.1:browse_mini:
+2018-10-20 01:55:42,726 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2018-10-20 01:56:34,007 INFO  org.dspace.app.xmlui.aspect.artifactbrowser.CommunityBrowser @ anonymous:session_id=095116D3FE34D150C3E3004D4183CC23:ip_addr=192.168.207.1:view_community_list:
+2018-10-20 01:56:34,017 INFO  org.dspace.app.xmlui.aspect.discovery.SidebarFacetsTransformer @ facets for scope, null: 4
+2018-10-20 01:57:08,959 INFO  org.dspace.authenticate.PasswordAuthentication @ anonymous:session_id=095116D3FE34D150C3E3004D4183CC23:ip_addr=192.168.207.1:authenticate:attempting password auth of user=1533566@hcmut.edu.vn
+2018-10-20 01:57:09,392 INFO  org.dspace.authenticate.PasswordAuthentication @ 1533566@hcmut.edu.vn:session_id=095116D3FE34D150C3E3004D4183CC23:ip_addr=192.168.207.1:authenticate:type=PasswordAuthentication
+2018-10-20 01:57:09,408 INFO  org.dspace.eperson.EPersonServiceImpl @ 1533566@hcmut.edu.vn:session_id=095116D3FE34D150C3E3004D4183CC23:ip_addr=192.168.207.1:update_eperson:eperson_id=2dab7c97-1c1f-4752-9f1d-1b0288f81911
+2018-10-20 01:57:09,408 INFO  org.dspace.app.xmlui.utils.AuthenticationUtil @ 1533566@hcmut.edu.vn:session_id=095116D3FE34D150C3E3004D4183CC23:ip_addr=192.168.207.1:login:type=explicit
+2018-10-20 01:57:10,515 INFO  org.dspace.app.xmlui.aspect.artifactbrowser.CommunityBrowser @ 1533566@hcmut.edu.vn:session_id=095116D3FE34D150C3E3004D4183CC23:ip_addr=192.168.207.1:view_community_list:
+2018-10-20 01:57:10,517 INFO  org.dspace.app.xmlui.aspect.discovery.SidebarFacetsTransformer @ facets for scope, null: 4
+2018-10-20 01:57:34,694 INFO  org.dspace.browse.BrowseEngine @ 1533566@hcmut.edu.vn:session_id=095116D3FE34D150C3E3004D4183CC23:ip_addr=192.168.207.1:browse_by_item:
+2018-10-20 01:57:43,658 INFO  org.dspace.browse.BrowseEngine @ 1533566@hcmut.edu.vn:session_id=095116D3FE34D150C3E3004D4183CC23:ip_addr=192.168.207.1:browse_by_item:
+2018-10-20 01:57:43,748 INFO  org.dspace.app.xmlui.aspect.artifactbrowser.ConfigurableBrowse @ 1533566@hcmut.edu.vn:session_id=095116D3FE34D150C3E3004D4183CC23:ip_addr=192.168.207.1:browse:org.dspace.app.xmlui.utils.DSpaceValidity@1a8a9862
+2018-10-20 01:58:29,353 INFO  org.dspace.browse.BrowseEngine @ 1533566@hcmut.edu.vn:session_id=095116D3FE34D150C3E3004D4183CC23:ip_addr=192.168.207.1:browse_by_item:
+2018-10-20 01:58:29,391 INFO  org.dspace.app.xmlui.aspect.artifactbrowser.ConfigurableBrowse @ 1533566@hcmut.edu.vn:session_id=095116D3FE34D150C3E3004D4183CC23:ip_addr=192.168.207.1:browse:org.dspace.app.xmlui.utils.DSpaceValidity@14915fad
+2018-10-20 01:58:34,545 INFO  org.dspace.app.xmlui.aspect.artifactbrowser.CommunityBrowser @ 1533566@hcmut.edu.vn:session_id=095116D3FE34D150C3E3004D4183CC23:ip_addr=192.168.207.1:view_community_list:
+2018-10-20 01:58:41,592 INFO  org.dspace.app.xmlui.aspect.artifactbrowser.CommunityBrowser @ 1533566@hcmut.edu.vn:session_id=095116D3FE34D150C3E3004D4183CC23:ip_addr=192.168.207.1:view_community_list:
+2018-10-20 01:59:15,852 INFO  org.dspace.app.webui.servlet.CommunityListServlet @ anonymous:session_id=2E6EB004ADF79030A0F54A66EA4A725A:ip_addr=192.168.207.1:view_community_list:
+2018-10-20 01:59:22,830 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=2E6EB004ADF79030A0F54A66EA4A725A:ip_addr=192.168.207.1:browse_mini:
+2018-10-20 01:59:22,884 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2018-10-20 01:59:28,493 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=2E6EB004ADF79030A0F54A66EA4A725A:ip_addr=192.168.207.1:browse_mini:
+2018-10-20 01:59:28,597 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2018-10-20 02:12:42,343 INFO  org.dspace.app.xmlui.aspect.artifactbrowser.CommunityBrowser @ anonymous:session_id=0D8614A8CE759BEB53733C5E996C4B0E:ip_addr=192.168.207.1:view_community_list:
+2018-10-20 02:12:42,360 INFO  org.dspace.app.xmlui.aspect.discovery.SidebarFacetsTransformer @ facets for scope, null: 4
+2018-10-20 02:13:55,117 INFO  org.dspace.app.xmlui.aspect.artifactbrowser.CommunityBrowser @ anonymous:session_id=0D8614A8CE759BEB53733C5E996C4B0E:ip_addr=192.168.207.1:view_community_list:
+2018-10-20 02:13:55,126 INFO  org.dspace.app.xmlui.aspect.discovery.SidebarFacetsTransformer @ facets for scope, null: 4
+2018-10-20 02:14:14,088 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=6366FD0637F6991673FF38DCED9B87A7:ip_addr=192.168.207.1:browse_mini:
+2018-10-20 02:14:14,158 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2018-10-20 02:15:40,256 INFO  org.dspace.app.xmlui.aspect.artifactbrowser.CommunityBrowser @ anonymous:session_id=0D8614A8CE759BEB53733C5E996C4B0E:ip_addr=192.168.207.1:view_community_list:
+2018-10-20 02:15:40,258 INFO  org.dspace.app.xmlui.aspect.discovery.SidebarFacetsTransformer @ facets for scope, null: 4
+2018-10-20 02:15:55,806 INFO  org.dspace.authenticate.PasswordAuthentication @ anonymous:session_id=0D8614A8CE759BEB53733C5E996C4B0E:ip_addr=192.168.207.1:authenticate:attempting password auth of user=1533566@hcmut.edu.vn
+2018-10-20 02:15:55,941 INFO  org.dspace.authenticate.PasswordAuthentication @ 1533566@hcmut.edu.vn:session_id=0D8614A8CE759BEB53733C5E996C4B0E:ip_addr=192.168.207.1:authenticate:type=PasswordAuthentication
+2018-10-20 02:15:55,942 INFO  org.dspace.eperson.EPersonServiceImpl @ 1533566@hcmut.edu.vn:session_id=0D8614A8CE759BEB53733C5E996C4B0E:ip_addr=192.168.207.1:update_eperson:eperson_id=2dab7c97-1c1f-4752-9f1d-1b0288f81911
+2018-10-20 02:15:55,964 INFO  org.dspace.app.xmlui.utils.AuthenticationUtil @ 1533566@hcmut.edu.vn:session_id=0D8614A8CE759BEB53733C5E996C4B0E:ip_addr=192.168.207.1:login:type=explicit
+2018-10-20 02:15:56,823 INFO  org.dspace.app.xmlui.aspect.artifactbrowser.CommunityBrowser @ 1533566@hcmut.edu.vn:session_id=0D8614A8CE759BEB53733C5E996C4B0E:ip_addr=192.168.207.1:view_community_list:
+2018-10-20 02:15:56,825 INFO  org.dspace.app.xmlui.aspect.discovery.SidebarFacetsTransformer @ facets for scope, null: 4
+2018-10-20 02:16:10,657 INFO  org.dspace.app.xmlui.aspect.artifactbrowser.CommunityBrowser @ 1533566@hcmut.edu.vn:session_id=0D8614A8CE759BEB53733C5E996C4B0E:ip_addr=192.168.207.1:view_community_list:
+2018-10-20 02:16:10,661 INFO  org.dspace.app.xmlui.aspect.discovery.SidebarFacetsTransformer @ facets for scope, null: 4

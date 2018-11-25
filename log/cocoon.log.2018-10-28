@@ -1,0 +1,159 @@
+2018-10-28 10:00:50,348 INFO  org.apache.cocoon.caching.impl.CacheImpl  - Cache HIT for PK_G-file-file:///var/lib/tomcat8/webapps/xmlui/aspects/protodocument.xml
+2018-10-28 10:00:52,488 INFO  org.apache.cocoon.caching.impl.CacheImpl  - Cache HIT for PK_G-aspect-cocoon://DRI/9/?pipelinehash=2122693255399799530_T-Navigation-352202562256476770_T-Include-resource://aspects/ViewArtifacts/dspace-home.xml_T-Include-file:///dspace/config/news-xmlui.xml
+2018-10-28 10:00:52,515 INFO  org.apache.cocoon.caching.impl.CacheImpl  - Cache HIT for PK_G-aspect-cocoon://DRI/8/?pipelinehash=-5644900639996066977_T-Navigation--7651829903989096409_T-CommunityBrowser-578614924677317992
+2018-10-28 10:00:52,861 INFO  org.apache.cocoon.caching.impl.CacheImpl  - Cache HIT for PK_G-aspect-cocoon://DRI/7/?pipelinehash=7973026695116099193_T-Navigation--7651829903989096409_T-SidebarFacetsTransformer-0_T-FrontPageFeeds-1_T-SiteRecentSubmissions-0
+2018-10-28 10:00:54,061 INFO  org.apache.cocoon.caching.impl.CacheImpl  - Cache HIT for PK_G-aspect-cocoon://DRI/6/?pipelinehash=-1524209752765420840_T-SystemwideAlerts-1_T-Navigation--5367372201529954577
+2018-10-28 10:00:54,071 INFO  org.apache.cocoon.caching.impl.CacheImpl  - Cache HIT for PK_G-aspect-cocoon://DRI/5/?pipelinehash=8483141202550366344
+2018-10-28 10:00:54,072 INFO  org.apache.cocoon.caching.impl.CacheImpl  - Cache MISS for PK_G-aspect-cocoon://DRI/4/
+2018-10-28 10:00:54,073 INFO  org.apache.cocoon.caching.impl.CacheImpl  - Cache MISS for PK_G-aspect-cocoon://DRI/3/
+2018-10-28 10:00:54,073 INFO  org.apache.cocoon.caching.impl.CacheImpl  - Cache MISS for PK_G-aspect-cocoon://DRI/2/
+2018-10-28 10:00:54,073 INFO  org.apache.cocoon.caching.impl.CacheImpl  - Cache MISS for PK_G-aspect-cocoon://DRI/1/_T-PageNotFound--2223765811167872118
+2018-10-28 10:00:54,333 INFO  org.apache.cocoon.caching.impl.CacheImpl  - Cache MISS for PK_G-file-cocoon://DRI/_T-IncludePageMeta--5534495057400678945_T-IncludePageMeta-7145676799531262490_T-IncludePageMeta-7904007307692048974_T-xslt-file:///var/lib/tomcat8/webapps/xmlui/themes/Mirage/Mirage.xsl_T-i18n-context://i18n/?vi___S-xhtml-;doctype-public=-//W3C//DTD XHTML 1.0 Strict//EN;doctype-system=http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd;encoding=UTF-8;indent=yes
+2018-10-28 10:00:55,819 INFO  org.apache.cocoon.i18n.XMLResourceBundle  - Bundle <file:///dspace/webapps/xmlui/i18n/aspects/Workflow/messages_vi.xml> not loaded: Source URI not found
+2018-10-28 10:00:55,888 INFO  org.apache.cocoon.i18n.XMLResourceBundle  - Bundle <resource://aspects/Workflow/i18n/messages_vi.xml> not loaded: Source URI not found
+2018-10-28 10:00:55,956 INFO  org.apache.cocoon.i18n.XMLResourceBundle  - Bundle <file:///dspace/webapps/xmlui/i18n/aspects/Statistics/messages_vi.xml> not loaded: Source URI not found
+2018-10-28 10:00:56,048 INFO  org.apache.cocoon.i18n.XMLResourceBundle  - Bundle <resource://aspects/Statistics/i18n/messages_vi.xml> not loaded: Source URI not found
+2018-10-28 10:00:56,072 INFO  org.apache.cocoon.i18n.XMLResourceBundle  - Bundle <file:///dspace/webapps/xmlui/i18n/aspects/Submission/messages_vi.xml> not loaded: Source URI not found
+2018-10-28 10:00:56,164 INFO  org.apache.cocoon.i18n.XMLResourceBundle  - Bundle <resource://aspects/Submission/i18n/messages_vi.xml> not loaded: Source URI not found
+2018-10-28 10:00:56,187 INFO  org.apache.cocoon.i18n.XMLResourceBundle  - Bundle <file:///dspace/webapps/xmlui/i18n/aspects/EPerson/messages_vi.xml> not loaded: Source URI not found
+2018-10-28 10:00:56,248 INFO  org.apache.cocoon.i18n.XMLResourceBundle  - Bundle <resource://aspects/EPerson/i18n/messages_vi.xml> not loaded: Source URI not found
+2018-10-28 10:00:56,278 INFO  org.apache.cocoon.i18n.XMLResourceBundle  - Bundle <file:///dspace/webapps/xmlui/i18n/aspects/Administrative/messages_vi.xml> not loaded: Source URI not found
+2018-10-28 10:00:56,383 INFO  org.apache.cocoon.i18n.XMLResourceBundle  - Bundle <resource://aspects/Administrative/i18n/messages_vi.xml> not loaded: Source URI not found
+2018-10-28 10:00:56,416 INFO  org.apache.cocoon.i18n.XMLResourceBundle  - Bundle <file:///dspace/webapps/xmlui/i18n/aspects/Discovery/messages_vi.xml> not loaded: Source URI not found
+2018-10-28 10:00:56,522 INFO  org.apache.cocoon.i18n.XMLResourceBundle  - Bundle <resource://aspects/Discovery/i18n/messages_vi.xml> not loaded: Source URI not found
+2018-10-28 10:00:56,556 INFO  org.apache.cocoon.i18n.XMLResourceBundle  - Bundle <file:///dspace/webapps/xmlui/i18n/aspects/BrowseArtifacts/messages_vi.xml> not loaded: Source URI not found
+2018-10-28 10:00:56,649 INFO  org.apache.cocoon.i18n.XMLResourceBundle  - Bundle <resource://aspects/BrowseArtifacts/i18n/messages_vi.xml> not loaded: Source URI not found
+2018-10-28 10:00:56,671 INFO  org.apache.cocoon.i18n.XMLResourceBundle  - Bundle <file:///dspace/webapps/xmlui/i18n/aspects/ViewArtifacts/messages_vi.xml> not loaded: Source URI not found
+2018-10-28 10:00:56,733 INFO  org.apache.cocoon.i18n.XMLResourceBundle  - Bundle <resource://aspects/ViewArtifacts/i18n/messages_vi.xml> not loaded: Source URI not found
+2018-10-28 10:00:56,777 INFO  org.apache.cocoon.i18n.XMLResourceBundle  - Bundle <file:///dspace/webapps/xmlui/i18n/aspects/Workflow/messages.xml> not loaded: Source URI not found
+2018-10-28 10:00:56,827 INFO  org.apache.cocoon.i18n.XMLResourceBundle  - Bundle <resource://aspects/Workflow/i18n/messages.xml> not loaded: Source URI not found
+2018-10-28 10:00:56,849 INFO  org.apache.cocoon.i18n.XMLResourceBundle  - Bundle <file:///dspace/webapps/xmlui/i18n/aspects/Statistics/messages.xml> not loaded: Source URI not found
+2018-10-28 10:00:56,941 INFO  org.apache.cocoon.i18n.XMLResourceBundle  - Bundle <resource://aspects/Statistics/i18n/messages.xml> not loaded: Source URI not found
+2018-10-28 10:00:56,945 INFO  org.apache.cocoon.i18n.XMLResourceBundle  - Bundle <file:///dspace/webapps/xmlui/i18n/aspects/Submission/messages.xml> not loaded: Source URI not found
+2018-10-28 10:00:56,988 INFO  org.apache.cocoon.i18n.XMLResourceBundle  - Bundle <resource://aspects/Submission/i18n/messages.xml> not loaded: Source URI not found
+2018-10-28 10:00:57,005 INFO  org.apache.cocoon.i18n.XMLResourceBundle  - Bundle <file:///dspace/webapps/xmlui/i18n/aspects/EPerson/messages.xml> not loaded: Source URI not found
+2018-10-28 10:00:57,090 INFO  org.apache.cocoon.i18n.XMLResourceBundle  - Bundle <resource://aspects/EPerson/i18n/messages.xml> not loaded: Source URI not found
+2018-10-28 10:00:57,129 INFO  org.apache.cocoon.i18n.XMLResourceBundle  - Bundle <file:///dspace/webapps/xmlui/i18n/aspects/Administrative/messages.xml> not loaded: Source URI not found
+2018-10-28 10:00:57,222 INFO  org.apache.cocoon.i18n.XMLResourceBundle  - Bundle <resource://aspects/Administrative/i18n/messages.xml> not loaded: Source URI not found
+2018-10-28 10:00:57,273 INFO  org.apache.cocoon.i18n.XMLResourceBundle  - Bundle <file:///dspace/webapps/xmlui/i18n/aspects/Discovery/messages.xml> not loaded: Source URI not found
+2018-10-28 10:00:57,322 INFO  org.apache.cocoon.i18n.XMLResourceBundle  - Bundle <file:///dspace/webapps/xmlui/i18n/aspects/BrowseArtifacts/messages.xml> not loaded: Source URI not found
+2018-10-28 10:00:57,409 INFO  org.apache.cocoon.i18n.XMLResourceBundle  - Bundle <resource://aspects/BrowseArtifacts/i18n/messages.xml> not loaded: Source URI not found
+2018-10-28 10:00:57,444 INFO  org.apache.cocoon.i18n.XMLResourceBundle  - Bundle <file:///dspace/webapps/xmlui/i18n/aspects/ViewArtifacts/messages.xml> not loaded: Source URI not found
+2018-10-28 10:00:57,517 INFO  org.apache.cocoon.i18n.XMLResourceBundle  - Bundle <resource://aspects/ViewArtifacts/i18n/messages.xml> not loaded: Source URI not found
+2018-10-28 10:00:57,773 INFO  cocoon.access  - '' Processed by Apache Cocoon in 8.204 seconds.
+2018-10-28 10:00:58,026 INFO  cocoon.access  - 'themes/Mirage/lib/css/reset.css' Processed by Apache Cocoon in 119 milliseconds.
+2018-10-28 10:00:58,093 INFO  cocoon.access  - 'themes/Mirage/lib/css/authority-control.css' Processed by Apache Cocoon in 137 milliseconds.
+2018-10-28 10:00:58,126 INFO  cocoon.access  - 'themes/Mirage/lib/css/jquery-ui-1.8.15.custom.css' Processed by Apache Cocoon in 210 milliseconds.
+2018-10-28 10:00:58,180 INFO  cocoon.access  - 'themes/Mirage/lib/css/media.css' Processed by Apache Cocoon in 13 milliseconds.
+2018-10-28 10:00:58,180 INFO  cocoon.access  - 'themes/Mirage/lib/css/helper.css' Processed by Apache Cocoon in 201 milliseconds.
+2018-10-28 10:00:58,211 INFO  cocoon.access  - 'themes/Mirage/lib/js/jquery-ui-1.8.15.custom.min.js' Processed by Apache Cocoon in 7 milliseconds.
+2018-10-28 10:00:58,225 INFO  cocoon.access  - 'themes/Mirage/lib/css/style.css' Processed by Apache Cocoon in 58 milliseconds.
+2018-10-28 10:00:58,231 INFO  cocoon.access  - 'themes/Mirage/lib/css/base.css' Processed by Apache Cocoon in 252 milliseconds.
+2018-10-28 10:00:58,246 INFO  cocoon.access  - 'themes/Mirage/lib/css/handheld.css' Processed by Apache Cocoon in 20 milliseconds.
+2018-10-28 10:00:58,373 INFO  cocoon.access  - 'themes/Mirage/lib/css/print.css' Processed by Apache Cocoon in 124 milliseconds.
+2018-10-28 10:00:58,393 INFO  cocoon.access  - 'static/icons/feed.png' Processed by Apache Cocoon in 38 milliseconds.
+2018-10-28 10:00:58,422 INFO  cocoon.access  - 'themes/Mirage/images/atmire-logo-small.svg' Processed by Apache Cocoon in 61 milliseconds.
+2018-10-28 10:00:58,435 INFO  cocoon.access  - 'themes/Mirage/images/dspace-logo-only.png' Processed by Apache Cocoon in 80 milliseconds.
+2018-10-28 10:05:35,100 INFO  org.apache.cocoon.caching.impl.CacheImpl  - Cache HIT for PK_G-file-file:///var/lib/tomcat8/webapps/xmlui/aspects/protodocument.xml
+2018-10-28 10:05:35,101 INFO  org.apache.cocoon.caching.impl.CacheImpl  - Cache MISS for PK_G-aspect-cocoon://DRI/9/login?pipelinehash=2122693255399799530_T-Navigation-6558485427277319499
+2018-10-28 10:05:35,115 INFO  org.apache.cocoon.caching.impl.CacheImpl  - Cache MISS for PK_G-aspect-cocoon://DRI/8/login?pipelinehash=5713343855242889589_T-Navigation--4741207929462314302
+2018-10-28 10:05:35,148 INFO  org.apache.cocoon.caching.impl.CacheImpl  - Cache MISS for PK_G-aspect-cocoon://DRI/7/login?pipelinehash=1203096387596336865_T-Navigation--4741207929462314302
+2018-10-28 10:05:35,152 INFO  org.apache.cocoon.caching.impl.CacheImpl  - Cache MISS for PK_G-aspect-cocoon://DRI/6/login?pipelinehash=-672104957724834730_T-SystemwideAlerts-1_T-Navigation--5367372201529954577
+2018-10-28 10:05:35,162 INFO  org.apache.cocoon.caching.impl.CacheImpl  - Cache MISS for PK_G-aspect-cocoon://DRI/5/login?pipelinehash=1326283030349388442_T-Navigation--6130656255318641225
+2018-10-28 10:05:35,163 INFO  org.apache.cocoon.caching.impl.CacheImpl  - Cache MISS for PK_G-aspect-cocoon://DRI/4/login?pipelinehash=3294865411159208287
+2018-10-28 10:05:35,164 INFO  org.apache.cocoon.caching.impl.CacheImpl  - Cache MISS for PK_G-aspect-cocoon://DRI/3/login?pipelinehash=-8724781638649064453
+2018-10-28 10:05:35,164 INFO  org.apache.cocoon.caching.impl.CacheImpl  - Cache MISS for PK_G-aspect-cocoon://DRI/2/login?pipelinehash=656331720051225390
+2018-10-28 10:05:35,182 INFO  org.apache.cocoon.caching.impl.CacheImpl  - Cache MISS for PK_G-aspect-cocoon://DRI/1/login?pipelinehash=-2442975498868740107_T-PageNotFound--1135021220491111614
+2018-10-28 10:05:35,873 INFO  org.apache.cocoon.caching.impl.CacheImpl  - Cache MISS for PK_G-file-cocoon://DRI/login?pipelinehash=-3334168698046969251_T-IncludePageMeta--5534495057400678945_T-IncludePageMeta-7145676799531262490_T-IncludePageMeta-7904007307692048974_T-xslt-file:///var/lib/tomcat8/webapps/xmlui/themes/Mirage/Mirage.xsl_T-i18n-context://i18n/?vi___S-xhtml-;doctype-public=-//W3C//DTD XHTML 1.0 Strict//EN;doctype-system=http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd;encoding=UTF-8;indent=yes
+2018-10-28 10:05:37,444 INFO  org.apache.cocoon.i18n.XMLResourceBundle  - Bundle <file:///dspace/webapps/xmlui/i18n/aspects/Workflow/messages_vi.xml> not loaded: Source URI not found
+2018-10-28 10:05:37,512 INFO  org.apache.cocoon.i18n.XMLResourceBundle  - Bundle <resource://aspects/Workflow/i18n/messages_vi.xml> not loaded: Source URI not found
+2018-10-28 10:05:37,535 INFO  org.apache.cocoon.i18n.XMLResourceBundle  - Bundle <file:///dspace/webapps/xmlui/i18n/aspects/Statistics/messages_vi.xml> not loaded: Source URI not found
+2018-10-28 10:05:37,593 INFO  org.apache.cocoon.i18n.XMLResourceBundle  - Bundle <resource://aspects/Statistics/i18n/messages_vi.xml> not loaded: Source URI not found
+2018-10-28 10:05:37,622 INFO  org.apache.cocoon.i18n.XMLResourceBundle  - Bundle <file:///dspace/webapps/xmlui/i18n/aspects/Submission/messages_vi.xml> not loaded: Source URI not found
+2018-10-28 10:05:37,700 INFO  org.apache.cocoon.i18n.XMLResourceBundle  - Bundle <resource://aspects/Submission/i18n/messages_vi.xml> not loaded: Source URI not found
+2018-10-28 10:05:37,754 INFO  org.apache.cocoon.i18n.XMLResourceBundle  - Bundle <file:///dspace/webapps/xmlui/i18n/aspects/EPerson/messages_vi.xml> not loaded: Source URI not found
+2018-10-28 10:05:37,852 INFO  org.apache.cocoon.i18n.XMLResourceBundle  - Bundle <resource://aspects/EPerson/i18n/messages_vi.xml> not loaded: Source URI not found
+2018-10-28 10:05:37,902 INFO  org.apache.cocoon.i18n.XMLResourceBundle  - Bundle <file:///dspace/webapps/xmlui/i18n/aspects/Administrative/messages_vi.xml> not loaded: Source URI not found
+2018-10-28 10:05:38,064 INFO  org.apache.cocoon.i18n.XMLResourceBundle  - Bundle <resource://aspects/Administrative/i18n/messages_vi.xml> not loaded: Source URI not found
+2018-10-28 10:05:38,159 INFO  org.apache.cocoon.i18n.XMLResourceBundle  - Bundle <file:///dspace/webapps/xmlui/i18n/aspects/Discovery/messages_vi.xml> not loaded: Source URI not found
+2018-10-28 10:05:38,352 INFO  org.apache.cocoon.i18n.XMLResourceBundle  - Bundle <resource://aspects/Discovery/i18n/messages_vi.xml> not loaded: Source URI not found
+2018-10-28 10:05:38,457 INFO  org.apache.cocoon.i18n.XMLResourceBundle  - Bundle <file:///dspace/webapps/xmlui/i18n/aspects/BrowseArtifacts/messages_vi.xml> not loaded: Source URI not found
+2018-10-28 10:05:38,650 INFO  org.apache.cocoon.i18n.XMLResourceBundle  - Bundle <resource://aspects/BrowseArtifacts/i18n/messages_vi.xml> not loaded: Source URI not found
+2018-10-28 10:05:38,784 INFO  org.apache.cocoon.i18n.XMLResourceBundle  - Bundle <file:///dspace/webapps/xmlui/i18n/aspects/ViewArtifacts/messages_vi.xml> not loaded: Source URI not found
+2018-10-28 10:05:39,094 INFO  org.apache.cocoon.i18n.XMLResourceBundle  - Bundle <resource://aspects/ViewArtifacts/i18n/messages_vi.xml> not loaded: Source URI not found
+2018-10-28 10:05:39,165 INFO  org.apache.cocoon.i18n.XMLResourceBundle  - Bundle <file:///dspace/webapps/xmlui/i18n/aspects/Workflow/messages.xml> not loaded: Source URI not found
+2018-10-28 10:05:39,295 INFO  org.apache.cocoon.i18n.XMLResourceBundle  - Bundle <resource://aspects/Workflow/i18n/messages.xml> not loaded: Source URI not found
+2018-10-28 10:05:39,345 INFO  org.apache.cocoon.i18n.XMLResourceBundle  - Bundle <file:///dspace/webapps/xmlui/i18n/aspects/Statistics/messages.xml> not loaded: Source URI not found
+2018-10-28 10:05:39,428 INFO  org.apache.cocoon.i18n.XMLResourceBundle  - Bundle <resource://aspects/Statistics/i18n/messages.xml> not loaded: Source URI not found
+2018-10-28 10:05:39,469 INFO  org.apache.cocoon.i18n.XMLResourceBundle  - Bundle <file:///dspace/webapps/xmlui/i18n/aspects/Submission/messages.xml> not loaded: Source URI not found
+2018-10-28 10:05:39,592 INFO  org.apache.cocoon.i18n.XMLResourceBundle  - Bundle <resource://aspects/Submission/i18n/messages.xml> not loaded: Source URI not found
+2018-10-28 10:05:39,658 INFO  org.apache.cocoon.i18n.XMLResourceBundle  - Bundle <file:///dspace/webapps/xmlui/i18n/aspects/EPerson/messages.xml> not loaded: Source URI not found
+2018-10-28 10:05:39,771 INFO  org.apache.cocoon.i18n.XMLResourceBundle  - Bundle <resource://aspects/EPerson/i18n/messages.xml> not loaded: Source URI not found
+2018-10-28 10:05:39,846 INFO  org.apache.cocoon.i18n.XMLResourceBundle  - Bundle <file:///dspace/webapps/xmlui/i18n/aspects/Administrative/messages.xml> not loaded: Source URI not found
+2018-10-28 10:05:39,987 INFO  org.apache.cocoon.i18n.XMLResourceBundle  - Bundle <resource://aspects/Administrative/i18n/messages.xml> not loaded: Source URI not found
+2018-10-28 10:05:40,000 INFO  org.apache.cocoon.i18n.XMLResourceBundle  - Bundle <file:///dspace/webapps/xmlui/i18n/aspects/Discovery/messages.xml> not loaded: Source URI not found
+2018-10-28 10:05:40,055 INFO  org.apache.cocoon.i18n.XMLResourceBundle  - Bundle <file:///dspace/webapps/xmlui/i18n/aspects/BrowseArtifacts/messages.xml> not loaded: Source URI not found
+2018-10-28 10:05:40,190 INFO  org.apache.cocoon.i18n.XMLResourceBundle  - Bundle <resource://aspects/BrowseArtifacts/i18n/messages.xml> not loaded: Source URI not found
+2018-10-28 10:05:40,213 INFO  org.apache.cocoon.i18n.XMLResourceBundle  - Bundle <file:///dspace/webapps/xmlui/i18n/aspects/ViewArtifacts/messages.xml> not loaded: Source URI not found
+2018-10-28 10:05:40,396 INFO  org.apache.cocoon.i18n.XMLResourceBundle  - Bundle <resource://aspects/ViewArtifacts/i18n/messages.xml> not loaded: Source URI not found
+2018-10-28 10:05:41,042 INFO  org.apache.cocoon.caching.impl.CacheImpl  - Caching new response for PK_G-aspect-cocoon://DRI/9/login?pipelinehash=2122693255399799530_T-Navigation-6558485427277319499
+2018-10-28 10:05:41,050 INFO  org.apache.cocoon.caching.impl.CacheImpl  - Caching new response for PK_G-aspect-cocoon://DRI/8/login?pipelinehash=5713343855242889589_T-Navigation--4741207929462314302
+2018-10-28 10:05:41,060 INFO  org.apache.cocoon.caching.impl.CacheImpl  - Caching new response for PK_G-aspect-cocoon://DRI/7/login?pipelinehash=1203096387596336865_T-Navigation--4741207929462314302
+2018-10-28 10:05:41,060 INFO  org.apache.cocoon.caching.impl.CacheImpl  - Caching new response for PK_G-aspect-cocoon://DRI/6/login?pipelinehash=-672104957724834730_T-SystemwideAlerts-1_T-Navigation--5367372201529954577
+2018-10-28 10:05:41,074 INFO  org.apache.cocoon.caching.impl.CacheImpl  - Caching new response for PK_G-aspect-cocoon://DRI/5/login?pipelinehash=1326283030349388442_T-Navigation--6130656255318641225
+2018-10-28 10:05:41,117 INFO  org.apache.cocoon.caching.impl.CacheImpl  - Caching new response for PK_G-aspect-cocoon://DRI/4/login?pipelinehash=3294865411159208287
+2018-10-28 10:05:41,129 INFO  org.apache.cocoon.caching.impl.CacheImpl  - Caching new response for PK_G-aspect-cocoon://DRI/3/login?pipelinehash=-8724781638649064453
+2018-10-28 10:05:41,136 INFO  org.apache.cocoon.caching.impl.CacheImpl  - Caching new response for PK_G-aspect-cocoon://DRI/2/login?pipelinehash=656331720051225390
+2018-10-28 10:05:41,141 INFO  org.apache.cocoon.caching.impl.CacheImpl  - Caching new response for PK_G-aspect-cocoon://DRI/1/login?pipelinehash=-2442975498868740107_T-PageNotFound--1135021220491111614
+2018-10-28 10:05:41,143 INFO  org.apache.cocoon.caching.impl.CacheImpl  - Caching new response for PK_G-file-cocoon://DRI/login?pipelinehash=-3334168698046969251_T-IncludePageMeta--5534495057400678945_T-IncludePageMeta-7145676799531262490_T-IncludePageMeta-7904007307692048974_T-xslt-file:///var/lib/tomcat8/webapps/xmlui/themes/Mirage/Mirage.xsl_T-i18n-context://i18n/?vi___S-xhtml-;doctype-public=-//W3C//DTD XHTML 1.0 Strict//EN;doctype-system=http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd;encoding=UTF-8;indent=yes
+2018-10-28 10:05:41,213 INFO  cocoon.access  - 'login' Processed by Apache Cocoon in 6.654 seconds.
+2018-10-28 10:05:42,072 INFO  org.apache.cocoon.caching.impl.CacheImpl  - Cache HIT for PK_G-file-file:///var/lib/tomcat8/webapps/xmlui/aspects/protodocument.xml
+2018-10-28 10:05:42,073 INFO  org.apache.cocoon.caching.impl.CacheImpl  - Cache MISS for PK_G-aspect-cocoon://DRI/9/password-login?pipelinehash=2122693255399799530_T-Navigation-5411477204348090199
+2018-10-28 10:05:42,073 INFO  org.apache.cocoon.caching.impl.CacheImpl  - Cache MISS for PK_G-aspect-cocoon://DRI/8/password-login?pipelinehash=-2099175843082875358_T-Navigation-4337098721467917697
+2018-10-28 10:05:42,074 INFO  org.apache.cocoon.caching.impl.CacheImpl  - Cache MISS for PK_G-aspect-cocoon://DRI/7/password-login?pipelinehash=3944758797622086678_T-Navigation-4337098721467917697
+2018-10-28 10:05:42,076 INFO  org.apache.cocoon.caching.impl.CacheImpl  - Cache MISS for PK_G-aspect-cocoon://DRI/6/password-login?pipelinehash=-3953630660612058031_T-SystemwideAlerts-1_T-Navigation--5367372201529954577
+2018-10-28 10:05:42,306 INFO  org.apache.cocoon.caching.impl.CacheImpl  - Cache MISS for PK_G-aspect-cocoon://DRI/5/password-login?pipelinehash=-6452738551774745954_T-Navigation--6130656255318641225_T-PasswordLogin-1
+2018-10-28 10:05:42,307 INFO  org.apache.cocoon.caching.impl.CacheImpl  - Cache MISS for PK_G-aspect-cocoon://DRI/4/password-login?pipelinehash=3504043174769952823
+2018-10-28 10:05:42,307 INFO  org.apache.cocoon.caching.impl.CacheImpl  - Cache MISS for PK_G-aspect-cocoon://DRI/3/password-login?pipelinehash=-94400802720377695
+2018-10-28 10:05:42,307 INFO  org.apache.cocoon.caching.impl.CacheImpl  - Cache MISS for PK_G-aspect-cocoon://DRI/2/password-login?pipelinehash=4152195716125693179
+2018-10-28 10:05:42,316 INFO  org.apache.cocoon.caching.impl.CacheImpl  - Cache MISS for PK_G-aspect-cocoon://DRI/1/password-login?pipelinehash=-8497316336857127177_T-PageNotFound-734162356040014990
+2018-10-28 10:05:42,359 INFO  org.apache.cocoon.caching.impl.CacheImpl  - Cache MISS for PK_G-file-cocoon://DRI/password-login?pipelinehash=4640440850294271630_T-IncludePageMeta--5534495057400678945_T-IncludePageMeta-7145676799531262490_T-IncludePageMeta-7904007307692048974_T-xslt-file:///var/lib/tomcat8/webapps/xmlui/themes/Mirage/Mirage.xsl_T-i18n-context://i18n/?vi___S-xhtml-;doctype-public=-//W3C//DTD XHTML 1.0 Strict//EN;doctype-system=http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd;encoding=UTF-8;indent=yes
+2018-10-28 10:05:46,818 INFO  org.apache.cocoon.caching.impl.CacheImpl  - Caching new response for PK_G-aspect-cocoon://DRI/9/password-login?pipelinehash=2122693255399799530_T-Navigation-5411477204348090199
+2018-10-28 10:05:47,045 INFO  org.apache.cocoon.caching.impl.CacheImpl  - Caching new response for PK_G-aspect-cocoon://DRI/8/password-login?pipelinehash=-2099175843082875358_T-Navigation-4337098721467917697
+2018-10-28 10:05:47,070 INFO  org.apache.cocoon.caching.impl.CacheImpl  - Caching new response for PK_G-aspect-cocoon://DRI/7/password-login?pipelinehash=3944758797622086678_T-Navigation-4337098721467917697
+2018-10-28 10:05:47,080 INFO  org.apache.cocoon.caching.impl.CacheImpl  - Caching new response for PK_G-aspect-cocoon://DRI/6/password-login?pipelinehash=-3953630660612058031_T-SystemwideAlerts-1_T-Navigation--5367372201529954577
+2018-10-28 10:05:47,159 INFO  org.apache.cocoon.caching.impl.CacheImpl  - Caching new response for PK_G-aspect-cocoon://DRI/5/password-login?pipelinehash=-6452738551774745954_T-Navigation--6130656255318641225_T-PasswordLogin-1
+2018-10-28 10:05:47,160 INFO  org.apache.cocoon.caching.impl.CacheImpl  - Caching new response for PK_G-aspect-cocoon://DRI/4/password-login?pipelinehash=3504043174769952823
+2018-10-28 10:05:47,160 INFO  org.apache.cocoon.caching.impl.CacheImpl  - Caching new response for PK_G-aspect-cocoon://DRI/3/password-login?pipelinehash=-94400802720377695
+2018-10-28 10:05:47,161 INFO  org.apache.cocoon.caching.impl.CacheImpl  - Caching new response for PK_G-aspect-cocoon://DRI/2/password-login?pipelinehash=4152195716125693179
+2018-10-28 10:05:47,161 INFO  org.apache.cocoon.caching.impl.CacheImpl  - Caching new response for PK_G-aspect-cocoon://DRI/1/password-login?pipelinehash=-8497316336857127177_T-PageNotFound-734162356040014990
+2018-10-28 10:05:47,178 INFO  org.apache.cocoon.caching.impl.CacheImpl  - Caching new response for PK_G-file-cocoon://DRI/password-login?pipelinehash=4640440850294271630_T-IncludePageMeta--5534495057400678945_T-IncludePageMeta-7145676799531262490_T-IncludePageMeta-7904007307692048974_T-xslt-file:///var/lib/tomcat8/webapps/xmlui/themes/Mirage/Mirage.xsl_T-i18n-context://i18n/?vi___S-xhtml-;doctype-public=-//W3C//DTD XHTML 1.0 Strict//EN;doctype-system=http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd;encoding=UTF-8;indent=yes
+2018-10-28 10:05:47,389 INFO  cocoon.access  - 'password-login' Processed by Apache Cocoon in 5.94 seconds.
+2018-10-28 10:06:15,567 INFO  org.apache.cocoon.caching.impl.CacheImpl  - Cache HIT for PK_G-file-file:///var/lib/tomcat8/webapps/xmlui/aspects/protodocument.xml
+2018-10-28 10:06:15,620 INFO  org.apache.cocoon.caching.impl.CacheImpl  - Cache HIT for PK_G-aspect-cocoon://DRI/9/password-login?pipelinehash=2122693255399799530_T-Navigation-5411477204348090199
+2018-10-28 10:06:15,620 INFO  org.apache.cocoon.caching.impl.CacheImpl  - Cache HIT for PK_G-aspect-cocoon://DRI/8/password-login?pipelinehash=-2099175843082875358_T-Navigation-4337098721467917697
+2018-10-28 10:06:15,621 INFO  org.apache.cocoon.caching.impl.CacheImpl  - Cache HIT for PK_G-aspect-cocoon://DRI/7/password-login?pipelinehash=3944758797622086678_T-Navigation-4337098721467917697
+2018-10-28 10:06:15,751 INFO  org.apache.cocoon.caching.impl.CacheImpl  - Cache MISS for PK_G-aspect-cocoon://DRI/6/password-login?pipelinehash=-3953630660612058031_T-SystemwideAlerts-1_T-Navigation-0
+2018-10-28 10:06:15,768 INFO  org.apache.cocoon.caching.impl.CacheImpl  - Cache MISS for PK_G-aspect-cocoon://DRI/5/password-login?pipelinehash=1371481806115713776
+2018-10-28 10:06:15,816 INFO  org.apache.cocoon.caching.impl.CacheImpl  - Cache MISS for PK_G-aspect-cocoon://DRI/4/password-login
+2018-10-28 10:06:15,816 INFO  org.apache.cocoon.caching.impl.CacheImpl  - Cache MISS for PK_G-aspect-cocoon://DRI/3/password-login
+2018-10-28 10:06:15,816 INFO  org.apache.cocoon.caching.impl.CacheImpl  - Cache MISS for PK_G-aspect-cocoon://DRI/2/password-login
+2018-10-28 10:06:15,819 INFO  org.apache.cocoon.caching.impl.CacheImpl  - Cache MISS for PK_G-aspect-cocoon://DRI/1/password-login_T-PageNotFound-734162356040014990
+2018-10-28 10:06:16,040 INFO  org.apache.cocoon.caching.impl.CacheImpl  - Cache MISS for PK_G-file-cocoon://DRI/password-login_T-IncludePageMeta--5534495057400678945_T-IncludePageMeta-7145676799531262490_T-IncludePageMeta-7904007307692048974_T-xslt-file:///var/lib/tomcat8/webapps/xmlui/themes/Mirage/Mirage.xsl_T-i18n-context://i18n/?vi___S-xhtml-;doctype-public=-//W3C//DTD XHTML 1.0 Strict//EN;doctype-system=http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd;encoding=UTF-8;indent=yes
+2018-10-28 10:06:16,897 INFO  org.apache.cocoon.caching.impl.CacheImpl  - Caching new response for PK_G-aspect-cocoon://DRI/6/password-login?pipelinehash=-3953630660612058031_T-SystemwideAlerts-1_T-Navigation-0
+2018-10-28 10:06:16,901 INFO  org.apache.cocoon.caching.impl.CacheImpl  - Caching new response for PK_G-aspect-cocoon://DRI/5/password-login?pipelinehash=1371481806115713776
+2018-10-28 10:06:16,939 INFO  cocoon.access  - 'password-login' Processed by Apache Cocoon in 5.774 seconds.
+2018-10-28 10:06:17,848 INFO  org.apache.cocoon.caching.impl.CacheImpl  - Cache HIT for PK_G-file-file:///var/lib/tomcat8/webapps/xmlui/aspects/protodocument.xml
+2018-10-28 10:06:18,177 INFO  org.apache.cocoon.caching.impl.CacheImpl  - Cache HIT for PK_G-aspect-cocoon://DRI/9/?pipelinehash=2122693255399799530_T-Navigation-352202562256476770_T-Include-resource://aspects/ViewArtifacts/dspace-home.xml_T-Include-file:///dspace/config/news-xmlui.xml
+2018-10-28 10:06:20,744 INFO  org.apache.cocoon.caching.impl.CacheImpl  - Cache HIT for PK_G-aspect-cocoon://DRI/8/?pipelinehash=-5644900639996066977_T-Navigation--7651829903989096409_T-CommunityBrowser-578614924677317992
+2018-10-28 10:06:22,475 INFO  org.apache.cocoon.caching.impl.CacheImpl  - Cache HIT for PK_G-aspect-cocoon://DRI/7/?pipelinehash=7973026695116099193_T-Navigation--7651829903989096409_T-SidebarFacetsTransformer-0_T-FrontPageFeeds-1_T-SiteRecentSubmissions-0
+2018-10-28 10:06:23,118 INFO  org.apache.cocoon.caching.impl.CacheImpl  - Cache MISS for PK_G-aspect-cocoon://DRI/6/?pipelinehash=-1524209752765420840_T-SystemwideAlerts-1_T-Navigation-7396107018111086732
+2018-10-28 10:06:25,542 INFO  org.apache.cocoon.caching.impl.CacheImpl  - Cache MISS for PK_G-aspect-cocoon://DRI/5/?pipelinehash=-3311693742612007813
+2018-10-28 10:06:25,627 INFO  org.apache.cocoon.caching.impl.CacheImpl  - Cache MISS for PK_G-aspect-cocoon://DRI/4/_T-Navigation-1
+2018-10-28 10:06:25,653 INFO  org.apache.cocoon.caching.impl.CacheImpl  - Cache MISS for PK_G-aspect-cocoon://DRI/3/
+2018-10-28 10:06:25,653 INFO  org.apache.cocoon.caching.impl.CacheImpl  - Cache MISS for PK_G-aspect-cocoon://DRI/2/
+2018-10-28 10:06:25,655 INFO  org.apache.cocoon.caching.impl.CacheImpl  - Cache MISS for PK_G-aspect-cocoon://DRI/1/_T-PageNotFound--2223765811167872118
+2018-10-28 10:06:25,755 INFO  org.apache.cocoon.caching.impl.CacheImpl  - Cache MISS for PK_G-file-cocoon://DRI/_T-IncludePageMeta--5534495057400678945_T-IncludePageMeta-7145676799531262490_T-IncludePageMeta-7904007307692048974_T-xslt-file:///var/lib/tomcat8/webapps/xmlui/themes/Mirage/Mirage.xsl_T-i18n-context://i18n/?vi___S-xhtml-;doctype-public=-//W3C//DTD XHTML 1.0 Strict//EN;doctype-system=http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd;encoding=UTF-8;indent=yes
+2018-10-28 10:06:27,119 INFO  org.apache.cocoon.caching.impl.CacheImpl  - Caching new response for PK_G-aspect-cocoon://DRI/6/?pipelinehash=-1524209752765420840_T-SystemwideAlerts-1_T-Navigation-7396107018111086732
+2018-10-28 10:06:27,137 INFO  org.apache.cocoon.caching.impl.CacheImpl  - Caching new response for PK_G-aspect-cocoon://DRI/5/?pipelinehash=-3311693742612007813
+2018-10-28 10:06:27,178 INFO  cocoon.access  - '' Processed by Apache Cocoon in 10.17 seconds.

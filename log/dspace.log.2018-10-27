@@ -1,0 +1,34 @@
+2018-10-27 11:35:21,233 INFO  org.dspace.app.xmlui.aspect.artifactbrowser.CommunityBrowser @ anonymous:session_id=E213EF52E7D410BA919F310ECA46E01C:ip_addr=10.0.0.1:view_community_list:
+2018-10-27 11:35:21,372 INFO  org.dspace.app.xmlui.aspect.discovery.SidebarFacetsTransformer @ facets for scope, null: 4
+2018-10-27 11:36:04,381 INFO  org.dspace.app.xmlui.aspect.artifactbrowser.CommunityBrowser @ anonymous:session_id=D0E945F59127ACD4234284899CBFB74B:ip_addr=127.0.0.1:view_community_list:
+2018-10-27 11:36:04,417 INFO  org.dspace.app.xmlui.aspect.discovery.SidebarFacetsTransformer @ facets for scope, null: 4
+2018-10-27 11:36:16,202 INFO  org.dspace.app.xmlui.aspect.discovery.SidebarFacetsTransformer @ facets for scope, null: 4
+2018-10-27 11:36:16,204 INFO  org.dspace.app.xmlui.aspect.discovery.SidebarFacetsTransformer @ facets for scope, null: 4
+2018-10-27 11:37:17,514 INFO  org.dspace.app.xmlui.aspect.artifactbrowser.CommunityBrowser @ anonymous:session_id=E213EF52E7D410BA919F310ECA46E01C:ip_addr=10.0.0.1:view_community_list:
+2018-10-27 11:37:17,555 INFO  org.dspace.app.xmlui.aspect.discovery.SidebarFacetsTransformer @ facets for scope, null: 4
+2018-10-27 11:39:19,896 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=8F6908428FFC9C2001521B3BC08A39B1:ip_addr=10.0.0.1:browse_mini:
+2018-10-27 11:39:23,125 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2018-10-27 11:50:54,176 INFO  org.dspace.app.xmlui.aspect.artifactbrowser.CommunityBrowser @ anonymous:session_id=D0E945F59127ACD4234284899CBFB74B:ip_addr=127.0.0.1:view_community_list:
+2018-10-27 11:50:54,181 INFO  org.dspace.app.xmlui.aspect.discovery.SidebarFacetsTransformer @ facets for scope, null: 4
+2018-10-27 12:17:54,291 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=703D906B884D35714F71D5FBFD049257:ip_addr=10.0.0.1:browse_mini:
+2018-10-27 12:17:55,354 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2018-10-27 12:22:05,765 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=703D906B884D35714F71D5FBFD049257:ip_addr=10.0.0.1:browse_mini:
+2018-10-27 12:22:06,167 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2018-10-27 12:22:08,050 INFO  org.dspace.app.webui.servlet.CommunityListServlet @ anonymous:session_id=703D906B884D35714F71D5FBFD049257:ip_addr=10.0.0.1:view_community_list:
+2018-10-27 12:34:26,240 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=703D906B884D35714F71D5FBFD049257:ip_addr=10.0.0.1:browse_mini:
+2018-10-27 12:34:26,404 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2018-10-27 12:58:36,828 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=A572F5BEA443C7F7BB4D851F5AB15E7A:ip_addr=10.0.0.1:browse_mini:
+2018-10-27 12:58:37,192 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2018-10-27 12:59:16,501 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=A572F5BEA443C7F7BB4D851F5AB15E7A:ip_addr=10.0.0.1:browse_mini:
+2018-10-27 12:59:16,582 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2018-10-27 13:00:01,446 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=A572F5BEA443C7F7BB4D851F5AB15E7A:ip_addr=10.0.0.1:browse_mini:
+2018-10-27 13:00:01,474 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2018-10-27 13:19:36,707 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=C367CC058F83AC5E2176EC0FB4262DB3:ip_addr=10.0.0.1:browse_mini:
+2018-10-27 13:19:36,832 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2018-10-27 13:19:58,391 INFO  org.dspace.app.xmlui.aspect.artifactbrowser.CommunityBrowser @ anonymous:session_id=A90F386AD0C6080EFF56EBB8ED293978:ip_addr=10.0.0.1:view_community_list:
+2018-10-27 13:19:58,624 INFO  org.dspace.app.xmlui.aspect.discovery.SidebarFacetsTransformer @ facets for scope, null: 4
+2018-10-27 13:20:03,059 INFO  org.dspace.app.xmlui.aspect.discovery.SidebarFacetsTransformer @ facets for scope, null: 4
+2018-10-27 13:20:12,249 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=C367CC058F83AC5E2176EC0FB4262DB3:ip_addr=10.0.0.1:browse_mini:
+2018-10-27 13:20:12,268 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2018-10-27 13:22:33,162 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=C367CC058F83AC5E2176EC0FB4262DB3:ip_addr=10.0.0.1:browse_mini:
+2018-10-27 13:22:33,270 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4

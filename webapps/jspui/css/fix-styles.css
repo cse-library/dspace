@@ -1,0 +1,86 @@
+.row.bannerold
+{
+	visibility: hidden;
+}
+.bnbackground
+{
+	background-image: url(/jspui/image/banner-bg.jpg);
+}
+
+.banner img
+{
+	background-color: unset;
+	padding: 0px;
+    margin-left: 100px;
+}
+.breadcrumb.btn-success
+{
+	display: none!important;
+}
+
+.navbar.navbar-inverse.navbar-fixed-top
+{
+	position: unset;
+	background-image: unset;
+	background-color: #1488db;
+}
+body.undernavigation
+{
+	padding-top:0px;
+}
+
+.navbar-inverse .navbar-nav>.active>a
+{
+	background-color: #1488db;
+}
+.navbar-inverse .navbar-nav>li>a
+{
+	color: #fff;
+}
+.navbar-inverse .navbar-nav>.dropdown>a .caret 
+{
+	border-top-color: #fff
+}
+.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:hover, .navbar-inverse .navbar-nav>.open>a:focus
+{
+	color: #000;
+    background-color: #ffffff
+}
+
+.logo
+{
+	float: left;
+}
+
+.navbar-inverse .navbar-nav>.active>a:hover{
+	color: #000;
+    background-color: #ffffff;
+}
+/*@media(min-width: : 768px){
+	.logo-1{
+		display:contents;
+	}
+	.logo {
+
+	float: left;
+
+		display: none!important;
+	}
+}
+
+@media( min-width: 1200px){
+	.logo-1{
+		display: none!important;
+	}
+}*/
+
+.navbar-inverse
+{
+	background-image: unset;
+	background-color: #1488db;
+}
+
+.footerbk
+{
+	color: #fff;
+}

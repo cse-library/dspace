@@ -1,0 +1,49 @@
+2018-10-21 14:31:25,163 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=B19303AEB4121A0044E78858E2B11694:ip_addr=192.168.207.1:browse_by_item:
+2018-10-21 14:31:25,188 INFO  org.dspace.app.xmlui.aspect.artifactbrowser.CommunityBrowser @ anonymous:session_id=45B3E256B54DB4B7D005F095E5D43383:ip_addr=192.168.207.1:view_community_list:
+2018-10-21 14:31:28,663 INFO  org.dspace.app.xmlui.aspect.artifactbrowser.ConfigurableBrowse @ anonymous:session_id=B19303AEB4121A0044E78858E2B11694:ip_addr=192.168.207.1:browse:org.dspace.app.xmlui.utils.DSpaceValidity@4d6c37fc
+2018-10-21 14:31:33,943 ERROR org.dspace.app.xmlui.cocoon.DSpaceCocoonServletFilter @ Client closed the connection before file download was complete
+2018-10-21 15:01:12,053 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=1196837B8ADDEF9CFBD354809878CF44:ip_addr=127.0.0.1:browse_mini:
+2018-10-21 15:01:13,231 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2018-10-21 15:02:26,473 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=1196837B8ADDEF9CFBD354809878CF44:ip_addr=127.0.0.1:browse_mini:
+2018-10-21 15:02:26,940 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2018-10-21 15:02:41,446 INFO  org.dspace.app.xmlui.aspect.artifactbrowser.CommunityBrowser @ anonymous:session_id=EE8DCF3EA5C5C7FE1BDD3965DB87EFB5:ip_addr=127.0.0.1:view_community_list:
+2018-10-21 15:02:41,500 INFO  org.dspace.app.xmlui.aspect.discovery.SidebarFacetsTransformer @ facets for scope, null: 4
+2018-10-21 15:02:44,229 INFO  org.dspace.app.xmlui.aspect.discovery.SidebarFacetsTransformer @ facets for scope, null: 4
+2018-10-21 15:03:38,147 INFO  org.dspace.authenticate.PasswordAuthentication @ anonymous:session_id=EE8DCF3EA5C5C7FE1BDD3965DB87EFB5:ip_addr=127.0.0.1:authenticate:attempting password auth of user=1533566@hcmut.edu.vn
+2018-10-21 15:03:38,800 INFO  org.dspace.app.xmlui.utils.AuthenticationUtil @ anonymous:session_id=EE8DCF3EA5C5C7FE1BDD3965DB87EFB5:ip_addr=127.0.0.1:failed_login:email=1533566@hcmut.edu.vn, realm=null, result=2
+2018-10-21 15:03:46,323 INFO  org.dspace.authenticate.PasswordAuthentication @ anonymous:session_id=EE8DCF3EA5C5C7FE1BDD3965DB87EFB5:ip_addr=127.0.0.1:authenticate:attempting password auth of user=1533566@hcmut.edu.vn
+2018-10-21 15:03:46,344 INFO  org.dspace.authenticate.PasswordAuthentication @ 1533566@hcmut.edu.vn:session_id=EE8DCF3EA5C5C7FE1BDD3965DB87EFB5:ip_addr=127.0.0.1:authenticate:type=PasswordAuthentication
+2018-10-21 15:03:46,380 INFO  org.dspace.eperson.EPersonServiceImpl @ 1533566@hcmut.edu.vn:session_id=EE8DCF3EA5C5C7FE1BDD3965DB87EFB5:ip_addr=127.0.0.1:update_eperson:eperson_id=2dab7c97-1c1f-4752-9f1d-1b0288f81911
+2018-10-21 15:03:46,380 INFO  org.dspace.app.xmlui.utils.AuthenticationUtil @ 1533566@hcmut.edu.vn:session_id=EE8DCF3EA5C5C7FE1BDD3965DB87EFB5:ip_addr=127.0.0.1:login:type=explicit
+2018-10-21 15:03:48,714 INFO  org.dspace.app.xmlui.aspect.artifactbrowser.CommunityBrowser @ 1533566@hcmut.edu.vn:session_id=EE8DCF3EA5C5C7FE1BDD3965DB87EFB5:ip_addr=127.0.0.1:view_community_list:
+2018-10-21 15:03:48,754 INFO  org.dspace.app.xmlui.aspect.discovery.SidebarFacetsTransformer @ facets for scope, null: 4
+2018-10-21 15:04:11,016 INFO  org.dspace.app.xmlui.aspect.artifactbrowser.CommunityBrowser @ 1533566@hcmut.edu.vn:session_id=EE8DCF3EA5C5C7FE1BDD3965DB87EFB5:ip_addr=127.0.0.1:view_community_list:
+2018-10-21 15:06:45,672 INFO  org.dspace.app.xmlui.aspect.artifactbrowser.CommunityBrowser @ anonymous:session_id=820BCFD2C2660441111C613EFE3D8A9C:ip_addr=192.168.207.1:view_community_list:
+2018-10-21 15:06:45,736 INFO  org.dspace.app.xmlui.aspect.discovery.SidebarFacetsTransformer @ facets for scope, null: 4
+2018-10-21 15:06:47,444 INFO  org.dspace.app.xmlui.aspect.discovery.SidebarFacetsTransformer @ facets for scope, null: 4
+2018-10-21 15:07:16,545 INFO  org.dspace.authenticate.PasswordAuthentication @ anonymous:session_id=820BCFD2C2660441111C613EFE3D8A9C:ip_addr=192.168.207.1:authenticate:attempting password auth of user=1533566@hcmut.edu.vn
+2018-10-21 15:07:16,608 INFO  org.dspace.authenticate.PasswordAuthentication @ 1533566@hcmut.edu.vn:session_id=820BCFD2C2660441111C613EFE3D8A9C:ip_addr=192.168.207.1:authenticate:type=PasswordAuthentication
+2018-10-21 15:07:16,609 INFO  org.dspace.eperson.EPersonServiceImpl @ 1533566@hcmut.edu.vn:session_id=820BCFD2C2660441111C613EFE3D8A9C:ip_addr=192.168.207.1:update_eperson:eperson_id=2dab7c97-1c1f-4752-9f1d-1b0288f81911
+2018-10-21 15:07:16,609 INFO  org.dspace.app.xmlui.utils.AuthenticationUtil @ 1533566@hcmut.edu.vn:session_id=820BCFD2C2660441111C613EFE3D8A9C:ip_addr=192.168.207.1:login:type=explicit
+2018-10-21 15:07:18,522 INFO  org.dspace.app.xmlui.aspect.artifactbrowser.CommunityBrowser @ 1533566@hcmut.edu.vn:session_id=820BCFD2C2660441111C613EFE3D8A9C:ip_addr=192.168.207.1:view_community_list:
+2018-10-21 15:07:18,528 INFO  org.dspace.app.xmlui.aspect.discovery.SidebarFacetsTransformer @ facets for scope, null: 4
+2018-10-21 15:07:23,705 INFO  org.dspace.app.xmlui.aspect.artifactbrowser.CommunityBrowser @ 1533566@hcmut.edu.vn:session_id=820BCFD2C2660441111C613EFE3D8A9C:ip_addr=192.168.207.1:view_community_list:
+2018-10-21 15:07:28,398 INFO  org.dspace.browse.BrowseEngine @ 1533566@hcmut.edu.vn:session_id=820BCFD2C2660441111C613EFE3D8A9C:ip_addr=192.168.207.1:browse_by_item:
+2018-10-21 15:07:28,541 INFO  org.dspace.app.xmlui.aspect.artifactbrowser.ConfigurableBrowse @ 1533566@hcmut.edu.vn:session_id=820BCFD2C2660441111C613EFE3D8A9C:ip_addr=192.168.207.1:browse:org.dspace.app.xmlui.utils.DSpaceValidity@75c01908
+2018-10-21 15:12:42,829 INFO  org.dspace.app.xmlui.aspect.artifactbrowser.CommunityBrowser @ anonymous:session_id=363D9F8C0846B0B03138AD07DC67C56F:ip_addr=10.0.0.1:view_community_list:
+2018-10-21 15:12:42,835 INFO  org.dspace.app.xmlui.aspect.discovery.SidebarFacetsTransformer @ facets for scope, null: 4
+2018-10-21 15:12:43,844 INFO  org.dspace.app.xmlui.aspect.discovery.SidebarFacetsTransformer @ facets for scope, null: 4
+2018-10-21 15:13:21,827 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=645FC2D34508BF3F495A84B1A267DAF5:ip_addr=10.0.0.1:browse_mini:
+2018-10-21 15:13:22,295 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2018-10-21 15:15:04,194 INFO  org.dspace.app.itemimport.ItemImportServiceImpl @ Created org.dspace.app.batchitemimport.work.dir of: /dspace/imports
+2018-10-21 15:15:26,499 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=645FC2D34508BF3F495A84B1A267DAF5:ip_addr=10.0.0.1:browse_mini:
+2018-10-21 15:15:27,036 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2018-10-21 15:15:27,126 INFO  org.dspace.browse.BrowseEngine @ anonymous:session_id=645FC2D34508BF3F495A84B1A267DAF5:ip_addr=10.0.0.1:browse_mini:
+2018-10-21 15:15:27,971 INFO  org.dspace.app.webui.discovery.DiscoverUtility @ facets for scope, null: 4
+2018-10-21 15:23:41,638 INFO  org.dspace.app.xmlui.aspect.artifactbrowser.CommunityBrowser @ 1533566@hcmut.edu.vn:session_id=EE8DCF3EA5C5C7FE1BDD3965DB87EFB5:ip_addr=127.0.0.1:view_community_list:
+2018-10-21 15:23:41,851 INFO  org.dspace.app.xmlui.aspect.artifactbrowser.CommunityBrowser @ 1533566@hcmut.edu.vn:session_id=EE8DCF3EA5C5C7FE1BDD3965DB87EFB5:ip_addr=127.0.0.1:view_community_list:
+2018-10-21 15:54:08,813 INFO  org.dspace.app.xmlui.aspect.artifactbrowser.CommunityBrowser @ anonymous:session_id=A68F8274791F96EE6C30022FA800DA77:ip_addr=127.0.0.1:view_community_list:
+2018-10-21 15:54:08,937 INFO  org.dspace.app.xmlui.aspect.discovery.SidebarFacetsTransformer @ facets for scope, null: 4
+2018-10-21 16:15:58,676 INFO  org.dspace.app.xmlui.aspect.artifactbrowser.CommunityBrowser @ anonymous:session_id=B1D93287132F6BE483B163029FBDB5DB:ip_addr=10.0.0.1:view_community_list:
+2018-10-21 16:15:58,888 INFO  org.dspace.app.xmlui.aspect.discovery.SidebarFacetsTransformer @ facets for scope, null: 4
+2018-10-21 16:16:07,096 INFO  org.dspace.app.xmlui.aspect.discovery.SidebarFacetsTransformer @ facets for scope, null: 4
